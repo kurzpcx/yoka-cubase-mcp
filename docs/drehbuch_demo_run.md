@@ -1,6 +1,6 @@
 # Drehbuch — KI-Studio MCP Demo-Lauf (v4)
 
-> **Voller Funktionsumfang (AGPL-3.0, public):** Mackie-Steuerung, MIDI-Recording, AHK-Bridge, die **volle Command-Belegung** (alle ~1559 Commands per Hotkey/MIDI), die **Cubase-Standard-Commands** und die plugin-agnostische Plugin-Parameter-Steuerung (`makeValueBinding`, Generatoren, Scanner) sind alle dabei — dazu der gesamte Nicker-Mixing/Mastering-Layer (`nicker_*`). Mitgeliefert ist eine **Demo-Plugin-Map (1 echtes Stock-Plugin je Kategorie)**; deine **volle Plugin-Abdeckung** entsteht aus deinem eigenen Scan (jede Cubase-Installation hat ein anderes Arsenal).
+> **Voller Funktionsumfang (AGPL-3.0, public):** Mackie-Steuerung, MIDI-Recording, AHK-Bridge, die **volle Command-Belegung** (alle ~1559 Commands per Hotkey/MIDI), die **Cubase-Standard-Commands** und die plugin-agnostische Plugin-Parameter-Steuerung (`makeValueBinding`, Generatoren, Scanner) sind alle dabei — dazu der gesamte Nicker-Mixing/Mastering-Layer (`nicker_*`). Mitgeliefert ist die **Stock-Plugin-Map mit allen 91 Cubase-Steinberg-Stock-Plugins** (universell — out-of-the-box steuerbar); nur deine **Drittanbieter-Plugins** brauchen den eigenen Scan.
 
 > **v5 (2026-06-09):** Plugin-Value-Bindings live — die Mechanik macht jeden vom Host veröffentlichten VST-Parameter adressierbar (`makeValueBinding`, unabhängig von plugin-internem MIDI-Learn). Live verifiziert: KI bewegte StudioEQ „1 Gain". Das Steuer-JS ist plugin-agnostisch (0 Plugin-Namen).
 
@@ -143,23 +143,23 @@
 
 ## Take 3 — Plugin-Parameter-Steuerung: generische Mechanik + Demo
 
-**Die Mechanik ist voll dabei — die Plugin-Map ist user-spezifisch.** Über die Cubase MIDI Remote API (`makeValueBinding`) ist **jeder vom Host veröffentlichte VST-Parameter** adressierbar — unabhängig von plugin-internem MIDI-Learn. Das **Steuer-JS ist plugin-agnostisch** (generische Slot×Param→CC-Bindings, 0 Plugin-Namen). Mitgeliefert ist eine **Demo-CC-Map** (1 Stock-Plugin je Kategorie) zum Ausprobieren; deine **volle Plugin-Abdeckung** entsteht aus deinem eigenen Scan (jede Cubase-Installation hat ein anderes Arsenal):
+**Die Mechanik ist voll dabei — die Plugin-Map ist user-spezifisch.** Über die Cubase MIDI Remote API (`makeValueBinding`) ist **jeder vom Host veröffentlichte VST-Parameter** adressierbar — unabhängig von plugin-internem MIDI-Learn. Das **Steuer-JS ist plugin-agnostisch** (generische Slot×Param→CC-Bindings, 0 Plugin-Namen). Mitgeliefert ist die **Stock-CC-Map mit allen Steinberg-Stock-Plugins** (91, universell); nur deine **Drittanbieter-Plugins** entstehen aus deinem eigenen Scan:
 
 | | im Repo | dein Setup |
 |---|---|---|
 | Generische Steuer-Mechanik (`ki_studio_value_remote.js`, Generator, Scanner) | ✅ | — |
-| Plugin-Map | **Demo (1 Stock-Plugin je Kategorie)** | **volle Abdeckung via eigenem Scan** |
+| Plugin-Map | **Alle 91 Steinberg-Stock-Plugins** | **+ Drittanbieter via eigenem Scan** |
 | Nicker-Wissen („welcher Wert klingt richtig?") | ✅ | — |
 
 **Live verifiziert (2026-06-09):** KI bewegte **StudioEQ „1 Gain"** (Cubase-Stock) — Wert fuhr sichtbar im Plugin-GUI.
 
 ### Demo-Choreografie
-- Stock-Plugin aus der **Demo-Map** auf eine Spur (z. B. **StudioEQ** oder **Frequency**), GUI offen
+- Stock-Plugin aus der **Stock-Map** auf eine Spur (z. B. **StudioEQ** oder **Frequency**), GUI offen
 - KI setzt einen Parameter (z. B. StudioEQ Band-1-Gain) per `nicker_set_plugin_param` → **Wert fährt live im GUI**
 - A/B: zweiter Wert, zurück — sichtbar + hörbar
 - Für deine **volle Plugin-Abdeckung** scannst du dein eigenes Sortiment mit dem mitgelieferten Scanner.
 
-**Mechanismus:** Der Scanner (`outputs/parse_param_scan.py` + `ki_studio_param_scan.js`) erzeugt aus deinem eigenen Plugin-Scan eine **Param-Map**; der Generator (`outputs/generate_value_bindings.py`) baut daraus das generische Steuer-JS. **Mitgeliefert:** `cubase_plugin_param_map_demo.json` (1 Stock-Plugin je Kategorie). Die **vollen** Maps (`cubase_plugin_param_map.json` + `cubase_value_cc_map.json`) sind dein persönlicher Scan und nicht im Repo. Adressierung über Port `AI_VAL`, Channel = Insert-Slot. Details: [`specs/spec_2026_06_09_plugin_value_bindings.md`](../specs/spec_2026_06_09_plugin_value_bindings.md).
+**Mechanismus:** Der Scanner (`outputs/parse_param_scan.py` + `ki_studio_param_scan.js`) erzeugt aus deinem eigenen Plugin-Scan eine **Param-Map**; der Generator (`outputs/generate_value_bindings.py`) baut daraus das generische Steuer-JS. **Mitgeliefert:** `cubase_plugin_param_map_stock.json` + `cubase_value_cc_map_stock.json` (alle 91 Steinberg-Stock-Plugins). Die **vollen** Maps (`cubase_plugin_param_map.json` + `cubase_value_cc_map.json`, inkl. deiner Drittanbieter) sind dein persönlicher Scan und nicht im Repo. Adressierung über Port `AI_VAL`, Channel = Insert-Slot. Details: [`specs/spec_2026_06_09_plugin_value_bindings.md`](../specs/spec_2026_06_09_plugin_value_bindings.md).
 
 ---
 

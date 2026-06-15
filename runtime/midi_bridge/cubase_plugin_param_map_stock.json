@@ -1,0 +1,7937 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-06-09",
+  "transport": "midi_remote_api",
+  "kind": "stock",
+  "source": "Cubase-15 Steinberg-Stock-Plugins (vendor 'Steinberg Media Technologies'). Universell: bei jeder Cubase-15-Installation identische Parameter-Indizes. Drittanbieter-Plugins sind bewusst nicht enthalten (user-spezifisch).",
+  "plugin_count": 91,
+  "scanned_plugins": [
+    {
+      "slot": 0,
+      "object_title": "AmbiConverter",
+      "param_count": 37,
+      "params": [
+        {
+          "index": 0,
+          "title": "Conversion Mode"
+        },
+        {
+          "index": 1,
+          "title": "Bypass"
+        },
+        {
+          "index": 2,
+          "title": "vuMode"
+        },
+        {
+          "index": 3,
+          "title": "inputGain1"
+        },
+        {
+          "index": 4,
+          "title": "outputGain1"
+        },
+        {
+          "index": 5,
+          "title": "inputGain2"
+        },
+        {
+          "index": 6,
+          "title": "outputGain2"
+        },
+        {
+          "index": 7,
+          "title": "inputGain3"
+        },
+        {
+          "index": 8,
+          "title": "outputGain3"
+        },
+        {
+          "index": 9,
+          "title": "inputGain4"
+        },
+        {
+          "index": 10,
+          "title": "outputGain4"
+        },
+        {
+          "index": 11,
+          "title": "inputGain5"
+        },
+        {
+          "index": 12,
+          "title": "outputGain5"
+        },
+        {
+          "index": 13,
+          "title": "inputGain6"
+        },
+        {
+          "index": 14,
+          "title": "outputGain6"
+        },
+        {
+          "index": 15,
+          "title": "inputGain7"
+        },
+        {
+          "index": 16,
+          "title": "outputGain7"
+        },
+        {
+          "index": 17,
+          "title": "inputGain8"
+        },
+        {
+          "index": 18,
+          "title": "outputGain8"
+        },
+        {
+          "index": 19,
+          "title": "inputGain9"
+        },
+        {
+          "index": 20,
+          "title": "outputGain9"
+        },
+        {
+          "index": 21,
+          "title": "inputGain10"
+        },
+        {
+          "index": 22,
+          "title": "outputGain10"
+        },
+        {
+          "index": 23,
+          "title": "inputGain11"
+        },
+        {
+          "index": 24,
+          "title": "outputGain11"
+        },
+        {
+          "index": 25,
+          "title": "inputGain12"
+        },
+        {
+          "index": 26,
+          "title": "outputGain12"
+        },
+        {
+          "index": 27,
+          "title": "inputGain13"
+        },
+        {
+          "index": 28,
+          "title": "outputGain13"
+        },
+        {
+          "index": 29,
+          "title": "inputGain14"
+        },
+        {
+          "index": 30,
+          "title": "outputGain14"
+        },
+        {
+          "index": 31,
+          "title": "inputGain15"
+        },
+        {
+          "index": 32,
+          "title": "outputGain15"
+        },
+        {
+          "index": 33,
+          "title": "inputGain16"
+        },
+        {
+          "index": 34,
+          "title": "outputGain16"
+        },
+        {
+          "index": 35,
+          "title": "maxInputGain"
+        },
+        {
+          "index": 36,
+          "title": "maxOutputGain"
+        }
+      ],
+      "pagination_period": 40,
+      "dropped_repeats": 24
+    },
+    {
+      "slot": 0,
+      "object_title": "AmbiDecoder",
+      "param_count": 64,
+      "params": [
+        {
+          "index": 0,
+          "title": "Bypass"
+        },
+        {
+          "index": 1,
+          "title": "Head-Locked Signal"
+        },
+        {
+          "index": 2,
+          "title": "LFE Gain"
+        },
+        {
+          "index": 3,
+          "title": "Focus Azimuth Angle"
+        },
+        {
+          "index": 4,
+          "title": "Focus Elevation Angle"
+        },
+        {
+          "index": 5,
+          "title": "Focus Size Angle"
+        },
+        {
+          "index": 6,
+          "title": "Focus Attenuation"
+        },
+        {
+          "index": 7,
+          "title": "Focus On/Off"
+        },
+        {
+          "index": 8,
+          "title": "Focus Follow Headtracking"
+        },
+        {
+          "index": 9,
+          "title": "Gain"
+        },
+        {
+          "index": 10,
+          "title": "Flip Left/Right"
+        },
+        {
+          "index": 11,
+          "title": "Flip Front/Back"
+        },
+        {
+          "index": 12,
+          "title": "Flip Top/Bottom"
+        },
+        {
+          "index": 13,
+          "title": "Output Arrangement"
+        },
+        {
+          "index": 14,
+          "title": "Head Tracking"
+        },
+        {
+          "index": 15,
+          "title": "Yaw Rotation"
+        },
+        {
+          "index": 16,
+          "title": "Pitch Rotation"
+        },
+        {
+          "index": 17,
+          "title": "Roll Rotation"
+        },
+        {
+          "index": 18,
+          "title": "OutVu 1"
+        },
+        {
+          "index": 19,
+          "title": "OutVu 2"
+        },
+        {
+          "index": 20,
+          "title": "OutVu 3"
+        },
+        {
+          "index": 21,
+          "title": "OutVu 4"
+        },
+        {
+          "index": 22,
+          "title": "OutVu 5"
+        },
+        {
+          "index": 23,
+          "title": "OutVu 6"
+        },
+        {
+          "index": 24,
+          "title": "OutVu 7"
+        },
+        {
+          "index": 25,
+          "title": "OutVu 8"
+        },
+        {
+          "index": 26,
+          "title": "OutVu 9"
+        },
+        {
+          "index": 27,
+          "title": "OutVu 10"
+        },
+        {
+          "index": 28,
+          "title": "OutVu 11"
+        },
+        {
+          "index": 29,
+          "title": "OutVu 12"
+        },
+        {
+          "index": 30,
+          "title": "OutVu 13"
+        },
+        {
+          "index": 31,
+          "title": "OutVu 14"
+        },
+        {
+          "index": 32,
+          "title": "OutVu 15"
+        },
+        {
+          "index": 33,
+          "title": "OutVu 16"
+        },
+        {
+          "index": 34,
+          "title": "OutVu 17"
+        },
+        {
+          "index": 35,
+          "title": "OutVu 18"
+        },
+        {
+          "index": 36,
+          "title": "OutVu 19"
+        },
+        {
+          "index": 37,
+          "title": "OutVu 20"
+        },
+        {
+          "index": 38,
+          "title": "OutVu 21"
+        },
+        {
+          "index": 39,
+          "title": "OutVu 22"
+        },
+        {
+          "index": 40,
+          "title": "OutVu 23"
+        },
+        {
+          "index": 41,
+          "title": "OutVu 24"
+        },
+        {
+          "index": 42,
+          "title": "OutVu Max"
+        },
+        {
+          "index": 43,
+          "title": "InVu 1"
+        },
+        {
+          "index": 44,
+          "title": "InVu 2"
+        },
+        {
+          "index": 45,
+          "title": "InVu 3"
+        },
+        {
+          "index": 46,
+          "title": "InVu 4"
+        },
+        {
+          "index": 47,
+          "title": "InVu 5"
+        },
+        {
+          "index": 48,
+          "title": "InVu 6"
+        },
+        {
+          "index": 49,
+          "title": "InVu 7"
+        },
+        {
+          "index": 50,
+          "title": "InVu 8"
+        },
+        {
+          "index": 51,
+          "title": "InVu 9"
+        },
+        {
+          "index": 52,
+          "title": "InVu 10"
+        },
+        {
+          "index": 53,
+          "title": "InVu 11"
+        },
+        {
+          "index": 54,
+          "title": "InVu 12"
+        },
+        {
+          "index": 55,
+          "title": "InVu 13"
+        },
+        {
+          "index": 56,
+          "title": "InVu 14"
+        },
+        {
+          "index": 57,
+          "title": "InVu 15"
+        },
+        {
+          "index": 58,
+          "title": "InVu 16"
+        },
+        {
+          "index": 59,
+          "title": "InVu 17"
+        },
+        {
+          "index": 60,
+          "title": "InVu 18"
+        },
+        {
+          "index": 61,
+          "title": "InVu 19"
+        },
+        {
+          "index": 62,
+          "title": "InVu 20"
+        },
+        {
+          "index": 63,
+          "title": "InVu 21"
+        }
+      ]
+    },
+    {
+      "slot": 0,
+      "object_title": "AutoFilter",
+      "param_count": 11,
+      "params": [
+        {
+          "index": 0,
+          "title": "Type"
+        },
+        {
+          "index": 1,
+          "title": "Freq"
+        },
+        {
+          "index": 2,
+          "title": "Resonance"
+        },
+        {
+          "index": 3,
+          "title": "Auto-Manual"
+        },
+        {
+          "index": 4,
+          "title": "Range"
+        },
+        {
+          "index": 5,
+          "title": "Attack"
+        },
+        {
+          "index": 6,
+          "title": "Release"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 12,
+          "title": "Gate"
+        },
+        {
+          "index": 14,
+          "title": "Mix"
+        },
+        {
+          "index": 15,
+          "title": "Output"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 33
+    },
+    {
+      "slot": 0,
+      "object_title": "AutoPan",
+      "param_count": 12,
+      "params": [
+        {
+          "index": 0,
+          "title": "Rate"
+        },
+        {
+          "index": 1,
+          "title": "Sync On"
+        },
+        {
+          "index": 2,
+          "title": "Sy Note"
+        },
+        {
+          "index": 3,
+          "title": "Link"
+        },
+        {
+          "index": 4,
+          "title": "Phase"
+        },
+        {
+          "index": 5,
+          "title": "Factor"
+        },
+        {
+          "index": 6,
+          "title": "Width"
+        },
+        {
+          "index": 7,
+          "title": "Smooth"
+        },
+        {
+          "index": 8,
+          "title": "Shape"
+        },
+        {
+          "index": 10,
+          "title": "T-Display"
+        },
+        {
+          "index": 12,
+          "title": "Pan-Display"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 36
+    },
+    {
+      "slot": 0,
+      "object_title": "Brickwall Limiter",
+      "plugin_class": "cubase_stock",
+      "published_param_count": 8,
+      "pagination_period": 8,
+      "verify_recommended": true,
+      "params": [
+        {
+          "index": 0,
+          "title": "Threshold",
+          "role": "threshold",
+          "group": "main"
+        },
+        {
+          "index": 3,
+          "title": "Release",
+          "role": "release",
+          "group": "main"
+        },
+        {
+          "index": 4,
+          "title": "Auto Release",
+          "role": "auto_release",
+          "group": "main"
+        },
+        {
+          "index": 5,
+          "title": "Link",
+          "role": "link",
+          "group": "main"
+        },
+        {
+          "index": 6,
+          "title": "DIC",
+          "role": "detect_intersample_clipping",
+          "group": "main"
+        },
+        {
+          "index": 7,
+          "title": "Bypass",
+          "role": "bypass",
+          "group": "global"
+        }
+      ],
+      "unresolved_idx": [
+        1,
+        2
+      ],
+      "_comment_unresolved": "idx 1/2 im Scan-Screenshot oben abgeschnitten (nicht erfasst). Periode 8 sicher (Threshold@0/8/16/24/32/40, Bypass@7/15/23/31/39/47). Bei Re-Scan idx 1/2 nachtragen (moeglich: Output, Detect-Mode o.ae.)."
+    },
+    {
+      "slot": 0,
+      "object_title": "Chopper",
+      "param_count": 9,
+      "params": [
+        {
+          "index": 0,
+          "title": "Waveform"
+        },
+        {
+          "index": 1,
+          "title": "Depth"
+        },
+        {
+          "index": 2,
+          "title": "Speed"
+        },
+        {
+          "index": 3,
+          "title": "Sync On"
+        },
+        {
+          "index": 4,
+          "title": "Input"
+        },
+        {
+          "index": 5,
+          "title": "Mix"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Mono-Stereo"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 27
+    },
+    {
+      "slot": 0,
+      "object_title": "Chorus",
+      "param_count": 11,
+      "params": [
+        {
+          "index": 0,
+          "title": "Rate"
+        },
+        {
+          "index": 1,
+          "title": "Sync On"
+        },
+        {
+          "index": 2,
+          "title": "Sy Note"
+        },
+        {
+          "index": 3,
+          "title": "Shape"
+        },
+        {
+          "index": 4,
+          "title": "Delay"
+        },
+        {
+          "index": 5,
+          "title": "Width"
+        },
+        {
+          "index": 6,
+          "title": "Spatial"
+        },
+        {
+          "index": 7,
+          "title": "Mix"
+        },
+        {
+          "index": 8,
+          "title": "Lo Filter"
+        },
+        {
+          "index": 10,
+          "title": "Hi Filter"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 33
+    },
+    {
+      "slot": 0,
+      "object_title": "Cloner",
+      "param_count": 20,
+      "params": [
+        {
+          "index": 0,
+          "title": "Detune"
+        },
+        {
+          "index": 1,
+          "title": "HumnDetune"
+        },
+        {
+          "index": 2,
+          "title": "Spatial"
+        },
+        {
+          "index": 3,
+          "title": "Mix"
+        },
+        {
+          "index": 4,
+          "title": "Output"
+        },
+        {
+          "index": 5,
+          "title": "HumnDly"
+        },
+        {
+          "index": 6,
+          "title": "Delay"
+        },
+        {
+          "index": 7,
+          "title": "NoVoices"
+        },
+        {
+          "index": 8,
+          "title": "Natural"
+        },
+        {
+          "index": 9,
+          "title": "StatDetune"
+        },
+        {
+          "index": 13,
+          "title": "StatDly"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "1 Detune"
+        },
+        {
+          "index": 17,
+          "title": "1 Delay"
+        },
+        {
+          "index": 18,
+          "title": "2 Detune"
+        },
+        {
+          "index": 19,
+          "title": "2 Delay"
+        },
+        {
+          "index": 20,
+          "title": "3 Detune"
+        },
+        {
+          "index": 21,
+          "title": "3 Delay"
+        },
+        {
+          "index": 22,
+          "title": "4 Detune"
+        },
+        {
+          "index": 23,
+          "title": "4 Delay"
+        }
+      ],
+      "pagination_period": 24,
+      "dropped_repeats": 32
+    },
+    {
+      "slot": 0,
+      "object_title": "DJ-Eq",
+      "param_count": 7,
+      "params": [
+        {
+          "index": 0,
+          "title": "LowGain"
+        },
+        {
+          "index": 1,
+          "title": "MidGain"
+        },
+        {
+          "index": 2,
+          "title": "Hi Gain"
+        },
+        {
+          "index": 3,
+          "title": "Low-Cut"
+        },
+        {
+          "index": 4,
+          "title": "Mid-Cut"
+        },
+        {
+          "index": 5,
+          "title": "Hi-Cut"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 48
+    },
+    {
+      "slot": 0,
+      "object_title": "DualFilter",
+      "param_count": 3,
+      "params": [
+        {
+          "index": 0,
+          "title": "Posit"
+        },
+        {
+          "index": 1,
+          "title": "Reso"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 21
+    },
+    {
+      "slot": 0,
+      "object_title": "EQ-M5",
+      "param_count": 8,
+      "params": [
+        {
+          "index": 0,
+          "title": "Lo Freq"
+        },
+        {
+          "index": 1,
+          "title": "LoBoost"
+        },
+        {
+          "index": 2,
+          "title": "Mi Freq"
+        },
+        {
+          "index": 3,
+          "title": "Mi Attn"
+        },
+        {
+          "index": 4,
+          "title": "Hi Freq"
+        },
+        {
+          "index": 5,
+          "title": "HiBoost"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 56
+    },
+    {
+      "slot": 0,
+      "object_title": "EQ-P1A",
+      "param_count": 10,
+      "params": [
+        {
+          "index": 0,
+          "title": "LoBoost"
+        },
+        {
+          "index": 1,
+          "title": "Lo Freq"
+        },
+        {
+          "index": 2,
+          "title": "LoAtten"
+        },
+        {
+          "index": 3,
+          "title": "HiBoost"
+        },
+        {
+          "index": 4,
+          "title": "HiB Frq"
+        },
+        {
+          "index": 5,
+          "title": "HB Bndw"
+        },
+        {
+          "index": 6,
+          "title": "HiAtten"
+        },
+        {
+          "index": 7,
+          "title": "HiA Frq"
+        },
+        {
+          "index": 8,
+          "title": "Bypass"
+        },
+        {
+          "index": 9,
+          "title": "Output"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 30
+    },
+    {
+      "slot": 0,
+      "object_title": "FX Modulator",
+      "param_count": 48,
+      "params": [
+        {
+          "index": 0,
+          "title": "Output"
+        },
+        {
+          "index": 1,
+          "title": "Mix"
+        },
+        {
+          "index": 2,
+          "title": "ActiveSlot"
+        },
+        {
+          "index": 3,
+          "title": "Time"
+        },
+        {
+          "index": 4,
+          "title": "LockBnks"
+        },
+        {
+          "index": 5,
+          "title": "Randomize"
+        },
+        {
+          "index": 6,
+          "title": "Byp Fx"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "VOL Time"
+        },
+        {
+          "index": 17,
+          "title": "Beats"
+        },
+        {
+          "index": 18,
+          "title": "Note"
+        },
+        {
+          "index": 19,
+          "title": "PhsSync"
+        },
+        {
+          "index": 21,
+          "title": "VOL Mix"
+        },
+        {
+          "index": 23,
+          "title": "Smooth"
+        },
+        {
+          "index": 24,
+          "title": "VOLFBOn"
+        },
+        {
+          "index": 25,
+          "title": "FB Frq1"
+        },
+        {
+          "index": 26,
+          "title": "FB Frq2"
+        },
+        {
+          "index": 27,
+          "title": "FB Solo"
+        },
+        {
+          "index": 29,
+          "title": "VOL Mix"
+        },
+        {
+          "index": 31,
+          "title": "VOL Bypass"
+        },
+        {
+          "index": 32,
+          "title": "PAN Time"
+        },
+        {
+          "index": 33,
+          "title": "Beats"
+        },
+        {
+          "index": 34,
+          "title": "Note"
+        },
+        {
+          "index": 35,
+          "title": "PhsSync"
+        },
+        {
+          "index": 37,
+          "title": "PAN Law"
+        },
+        {
+          "index": 39,
+          "title": "Smooth"
+        },
+        {
+          "index": 40,
+          "title": "PANFBOn"
+        },
+        {
+          "index": 41,
+          "title": "FB Frq1"
+        },
+        {
+          "index": 42,
+          "title": "FB Frq2"
+        },
+        {
+          "index": 43,
+          "title": "FB Solo"
+        },
+        {
+          "index": 45,
+          "title": "PAN Law"
+        },
+        {
+          "index": 47,
+          "title": "PAN Bypass"
+        },
+        {
+          "index": 48,
+          "title": "WID Time"
+        },
+        {
+          "index": 49,
+          "title": "Beats"
+        },
+        {
+          "index": 50,
+          "title": "Note"
+        },
+        {
+          "index": 51,
+          "title": "PhsSync"
+        },
+        {
+          "index": 52,
+          "title": "Dly On"
+        },
+        {
+          "index": 53,
+          "title": "Delay"
+        },
+        {
+          "index": 54,
+          "title": "ColorOn"
+        },
+        {
+          "index": 55,
+          "title": "Colour"
+        },
+        {
+          "index": 56,
+          "title": "WIDFBOn"
+        },
+        {
+          "index": 57,
+          "title": "FB Frq1"
+        },
+        {
+          "index": 58,
+          "title": "FB Frq2"
+        },
+        {
+          "index": 59,
+          "title": "FB Solo"
+        },
+        {
+          "index": 60,
+          "title": "Mono-In"
+        },
+        {
+          "index": 61,
+          "title": "MonoOut"
+        },
+        {
+          "index": 62,
+          "title": "Smooth"
+        },
+        {
+          "index": 63,
+          "title": "WID Bypass"
+        }
+      ]
+    },
+    {
+      "slot": 0,
+      "object_title": "Flanger",
+      "param_count": 15,
+      "params": [
+        {
+          "index": 0,
+          "title": "Rate"
+        },
+        {
+          "index": 1,
+          "title": "Sync On"
+        },
+        {
+          "index": 2,
+          "title": "Sy Note"
+        },
+        {
+          "index": 3,
+          "title": "Shape"
+        },
+        {
+          "index": 4,
+          "title": "Delay"
+        },
+        {
+          "index": 5,
+          "title": "Feedback"
+        },
+        {
+          "index": 6,
+          "title": "Spatial"
+        },
+        {
+          "index": 7,
+          "title": "Mix"
+        },
+        {
+          "index": 8,
+          "title": "ManuaOn"
+        },
+        {
+          "index": 9,
+          "title": "Manual"
+        },
+        {
+          "index": 11,
+          "title": "Lo Range"
+        },
+        {
+          "index": 12,
+          "title": "Hi Range"
+        },
+        {
+          "index": 13,
+          "title": "Lo Cut"
+        },
+        {
+          "index": 14,
+          "title": "Hi Cut"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 45
+    },
+    {
+      "slot": 0,
+      "object_title": "Frequency",
+      "param_count": 58,
+      "params": [
+        {
+          "index": 0,
+          "title": "1 Freq"
+        },
+        {
+          "index": 1,
+          "title": "1 Gain"
+        },
+        {
+          "index": 2,
+          "title": "2 Freq"
+        },
+        {
+          "index": 3,
+          "title": "2 Gain"
+        },
+        {
+          "index": 4,
+          "title": "3 Freq"
+        },
+        {
+          "index": 5,
+          "title": "3 Gain"
+        },
+        {
+          "index": 6,
+          "title": "4 Freq"
+        },
+        {
+          "index": 7,
+          "title": "4 Gain"
+        },
+        {
+          "index": 8,
+          "title": "5 Freq"
+        },
+        {
+          "index": 9,
+          "title": "5 Gain"
+        },
+        {
+          "index": 10,
+          "title": "6 Freq"
+        },
+        {
+          "index": 11,
+          "title": "6 Gain"
+        },
+        {
+          "index": 12,
+          "title": "7 Freq"
+        },
+        {
+          "index": 13,
+          "title": "7 Gain"
+        },
+        {
+          "index": 14,
+          "title": "8 Freq"
+        },
+        {
+          "index": 15,
+          "title": "8 Gain"
+        },
+        {
+          "index": 22,
+          "title": "EQOutput"
+        },
+        {
+          "index": 23,
+          "title": "EQBypass"
+        },
+        {
+          "index": 24,
+          "title": "1 Bd On"
+        },
+        {
+          "index": 25,
+          "title": "1 Freq"
+        },
+        {
+          "index": 26,
+          "title": "1 Gain"
+        },
+        {
+          "index": 27,
+          "title": "1 Q"
+        },
+        {
+          "index": 28,
+          "title": "1 Fr-2"
+        },
+        {
+          "index": 29,
+          "title": "1 Gn-2"
+        },
+        {
+          "index": 30,
+          "title": "1 Q-2"
+        },
+        {
+          "index": 31,
+          "title": "1ChConfig"
+        },
+        {
+          "index": 32,
+          "title": "2 Bd On"
+        },
+        {
+          "index": 33,
+          "title": "2 Freq"
+        },
+        {
+          "index": 34,
+          "title": "2 Gain"
+        },
+        {
+          "index": 35,
+          "title": "2 Q"
+        },
+        {
+          "index": 36,
+          "title": "2 Fr-2"
+        },
+        {
+          "index": 37,
+          "title": "2 Gn-2"
+        },
+        {
+          "index": 38,
+          "title": "2 Q-2"
+        },
+        {
+          "index": 39,
+          "title": "2ChConfig"
+        },
+        {
+          "index": 40,
+          "title": "3 Bd On"
+        },
+        {
+          "index": 41,
+          "title": "3 Freq"
+        },
+        {
+          "index": 42,
+          "title": "3 Gain"
+        },
+        {
+          "index": 43,
+          "title": "3 Q"
+        },
+        {
+          "index": 44,
+          "title": "3 Fr-2"
+        },
+        {
+          "index": 45,
+          "title": "3 Gn-2"
+        },
+        {
+          "index": 46,
+          "title": "3 Q-2"
+        },
+        {
+          "index": 47,
+          "title": "3ChConfig"
+        },
+        {
+          "index": 48,
+          "title": "4 Bd On"
+        },
+        {
+          "index": 49,
+          "title": "4 Freq"
+        },
+        {
+          "index": 50,
+          "title": "4 Gain"
+        },
+        {
+          "index": 51,
+          "title": "4 Q"
+        },
+        {
+          "index": 52,
+          "title": "4 Fr-2"
+        },
+        {
+          "index": 53,
+          "title": "4 Gn-2"
+        },
+        {
+          "index": 54,
+          "title": "4 Q-2"
+        },
+        {
+          "index": 55,
+          "title": "4ChConfig"
+        },
+        {
+          "index": 56,
+          "title": "5 Bd On"
+        },
+        {
+          "index": 57,
+          "title": "5 Freq"
+        },
+        {
+          "index": 58,
+          "title": "5 Gain"
+        },
+        {
+          "index": 59,
+          "title": "5 Q"
+        },
+        {
+          "index": 60,
+          "title": "5 Fr-2"
+        },
+        {
+          "index": 61,
+          "title": "5 Gn-2"
+        },
+        {
+          "index": 62,
+          "title": "5 Q-2"
+        },
+        {
+          "index": 63,
+          "title": "5ChConfig"
+        }
+      ]
+    },
+    {
+      "slot": 0,
+      "object_title": "GEQ-10",
+      "param_count": 31,
+      "params": [
+        {
+          "index": 0,
+          "title": "32 Hz"
+        },
+        {
+          "index": 1,
+          "title": "63 Hz"
+        },
+        {
+          "index": 2,
+          "title": "125 Hz"
+        },
+        {
+          "index": 3,
+          "title": "250 Hz"
+        },
+        {
+          "index": 4,
+          "title": "500 Hz"
+        },
+        {
+          "index": 5,
+          "title": "1 kHz"
+        },
+        {
+          "index": 6,
+          "title": "2 kHz"
+        },
+        {
+          "index": 7,
+          "title": "4 kHz"
+        },
+        {
+          "index": 8,
+          "title": "8 kHz"
+        },
+        {
+          "index": 9,
+          "title": "16 kHz"
+        },
+        {
+          "index": 10,
+          "title": "GnRange"
+        },
+        {
+          "index": 11,
+          "title": "Flat"
+        },
+        {
+          "index": 12,
+          "title": "Invert"
+        },
+        {
+          "index": 13,
+          "title": "Mode"
+        },
+        {
+          "index": 14,
+          "title": "Output"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "32 Hz"
+        },
+        {
+          "index": 18,
+          "title": "125 Hz"
+        },
+        {
+          "index": 19,
+          "title": "250 Hz"
+        },
+        {
+          "index": 20,
+          "title": "500 Hz"
+        },
+        {
+          "index": 21,
+          "title": "1 kHz"
+        },
+        {
+          "index": 22,
+          "title": "2 kHz"
+        },
+        {
+          "index": 23,
+          "title": "4 kHz"
+        },
+        {
+          "index": 24,
+          "title": "8 kHz"
+        },
+        {
+          "index": 25,
+          "title": "16 kHz"
+        },
+        {
+          "index": 26,
+          "title": "GnRange"
+        },
+        {
+          "index": 27,
+          "title": "Flat"
+        },
+        {
+          "index": 28,
+          "title": "Invert"
+        },
+        {
+          "index": 29,
+          "title": "Mode"
+        },
+        {
+          "index": 30,
+          "title": "Output"
+        },
+        {
+          "index": 31,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 32,
+      "dropped_repeats": 32
+    },
+    {
+      "slot": 0,
+      "object_title": "GEQ-30",
+      "param_count": 36,
+      "params": [
+        {
+          "index": 0,
+          "title": "25 Hz"
+        },
+        {
+          "index": 1,
+          "title": "32 Hz"
+        },
+        {
+          "index": 2,
+          "title": "40 Hz"
+        },
+        {
+          "index": 3,
+          "title": "50 Hz"
+        },
+        {
+          "index": 4,
+          "title": "63 Hz"
+        },
+        {
+          "index": 5,
+          "title": "80 Hz"
+        },
+        {
+          "index": 6,
+          "title": "100 Hz"
+        },
+        {
+          "index": 7,
+          "title": "125 Hz"
+        },
+        {
+          "index": 8,
+          "title": "160 Hz"
+        },
+        {
+          "index": 9,
+          "title": "200 Hz"
+        },
+        {
+          "index": 10,
+          "title": "250 Hz"
+        },
+        {
+          "index": 11,
+          "title": "315 Hz"
+        },
+        {
+          "index": 12,
+          "title": "400 Hz"
+        },
+        {
+          "index": 13,
+          "title": "500 Hz"
+        },
+        {
+          "index": 14,
+          "title": "630 Hz"
+        },
+        {
+          "index": 15,
+          "title": "800 Hz"
+        },
+        {
+          "index": 16,
+          "title": "1,0 kHz"
+        },
+        {
+          "index": 17,
+          "title": "1,25 kHz"
+        },
+        {
+          "index": 18,
+          "title": "1,6 kHz"
+        },
+        {
+          "index": 19,
+          "title": "2,0 kHz"
+        },
+        {
+          "index": 20,
+          "title": "2,5 kHz"
+        },
+        {
+          "index": 21,
+          "title": "3,15 kHz"
+        },
+        {
+          "index": 22,
+          "title": "4,0 kHz"
+        },
+        {
+          "index": 23,
+          "title": "5,0 kHz"
+        },
+        {
+          "index": 24,
+          "title": "6,3 kHz"
+        },
+        {
+          "index": 25,
+          "title": "8,0 kHz"
+        },
+        {
+          "index": 26,
+          "title": "10 kHz"
+        },
+        {
+          "index": 27,
+          "title": "12,5 kHz"
+        },
+        {
+          "index": 28,
+          "title": "16 kHz"
+        },
+        {
+          "index": 29,
+          "title": "20 kHz"
+        },
+        {
+          "index": 31,
+          "title": "GnRange"
+        },
+        {
+          "index": 32,
+          "title": "Flat"
+        },
+        {
+          "index": 33,
+          "title": "Invert"
+        },
+        {
+          "index": 34,
+          "title": "Mode"
+        },
+        {
+          "index": 38,
+          "title": "Output"
+        },
+        {
+          "index": 39,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 40,
+      "dropped_repeats": 24
+    },
+    {
+      "slot": 0,
+      "object_title": "Imager",
+      "param_count": 40,
+      "params": [
+        {
+          "index": 0,
+          "title": "1 Width"
+        },
+        {
+          "index": 1,
+          "title": "1 Pan"
+        },
+        {
+          "index": 2,
+          "title": "2 Width"
+        },
+        {
+          "index": 3,
+          "title": "2 Pan"
+        },
+        {
+          "index": 4,
+          "title": "3 Width"
+        },
+        {
+          "index": 5,
+          "title": "3 Pan"
+        },
+        {
+          "index": 6,
+          "title": "4 Width"
+        },
+        {
+          "index": 7,
+          "title": "4 Pan"
+        },
+        {
+          "index": 8,
+          "title": "1-On"
+        },
+        {
+          "index": 9,
+          "title": "1 Width"
+        },
+        {
+          "index": 10,
+          "title": "1 Pan"
+        },
+        {
+          "index": 11,
+          "title": "1 Output"
+        },
+        {
+          "index": 12,
+          "title": "1 Freq"
+        },
+        {
+          "index": 13,
+          "title": "# Bands"
+        },
+        {
+          "index": 14,
+          "title": "Solo"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "2-On"
+        },
+        {
+          "index": 17,
+          "title": "2 Width"
+        },
+        {
+          "index": 18,
+          "title": "2 Pan"
+        },
+        {
+          "index": 19,
+          "title": "2 Output"
+        },
+        {
+          "index": 20,
+          "title": "2 Freq"
+        },
+        {
+          "index": 21,
+          "title": "# Bands"
+        },
+        {
+          "index": 22,
+          "title": "Solo"
+        },
+        {
+          "index": 23,
+          "title": "Bypass"
+        },
+        {
+          "index": 24,
+          "title": "3-On"
+        },
+        {
+          "index": 25,
+          "title": "3 Width"
+        },
+        {
+          "index": 26,
+          "title": "3 Pan"
+        },
+        {
+          "index": 27,
+          "title": "3 Output"
+        },
+        {
+          "index": 28,
+          "title": "3 Freq"
+        },
+        {
+          "index": 29,
+          "title": "# Bands"
+        },
+        {
+          "index": 30,
+          "title": "Solo"
+        },
+        {
+          "index": 31,
+          "title": "Bypass"
+        },
+        {
+          "index": 32,
+          "title": "4-On"
+        },
+        {
+          "index": 33,
+          "title": "4 Width"
+        },
+        {
+          "index": 34,
+          "title": "4 Pan"
+        },
+        {
+          "index": 35,
+          "title": "4 Output"
+        },
+        {
+          "index": 36,
+          "title": "3 Freq"
+        },
+        {
+          "index": 37,
+          "title": "# Bands"
+        },
+        {
+          "index": 38,
+          "title": "Solo"
+        },
+        {
+          "index": 39,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 40,
+      "dropped_repeats": 24
+    },
+    {
+      "slot": 0,
+      "object_title": "Lin Dither",
+      "param_count": 4,
+      "params": [
+        {
+          "index": 0,
+          "title": "Bits"
+        },
+        {
+          "index": 1,
+          "title": "AuBlankg"
+        },
+        {
+          "index": 2,
+          "title": "N-Sh On"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 28
+    },
+    {
+      "slot": 0,
+      "object_title": "LoopMash FX",
+      "param_count": 6,
+      "params": [
+        {
+          "index": 0,
+          "title": "Group 1"
+        },
+        {
+          "index": 1,
+          "title": "Group 2"
+        },
+        {
+          "index": 2,
+          "title": "Group 3"
+        },
+        {
+          "index": 3,
+          "title": "Group 4"
+        },
+        {
+          "index": 5,
+          "title": "GridSize"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 42
+    },
+    {
+      "slot": 0,
+      "object_title": "Metalizer",
+      "param_count": 10,
+      "params": [
+        {
+          "index": 0,
+          "title": "Enable Speed"
+        },
+        {
+          "index": 1,
+          "title": "Speed"
+        },
+        {
+          "index": 2,
+          "title": "Sync"
+        },
+        {
+          "index": 3,
+          "title": "Mix"
+        },
+        {
+          "index": 4,
+          "title": "Feedback"
+        },
+        {
+          "index": 5,
+          "title": "Sharpness"
+        },
+        {
+          "index": 6,
+          "title": "Tone"
+        },
+        {
+          "index": 7,
+          "title": "Output"
+        },
+        {
+          "index": 13,
+          "title": "Mono-Stereo"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 30
+    },
+    {
+      "slot": 0,
+      "object_title": "Mix6To2",
+      "param_count": 37,
+      "params": [
+        {
+          "index": 0,
+          "title": "L>L Vol"
+        },
+        {
+          "index": 1,
+          "title": "L>R Vol"
+        },
+        {
+          "index": 2,
+          "title": "Inv-L>L"
+        },
+        {
+          "index": 3,
+          "title": "Inv-L>R"
+        },
+        {
+          "index": 4,
+          "title": "R>L Vol"
+        },
+        {
+          "index": 5,
+          "title": "R>R Vol"
+        },
+        {
+          "index": 6,
+          "title": "Inv-R>L"
+        },
+        {
+          "index": 7,
+          "title": "Inv-R>R"
+        },
+        {
+          "index": 8,
+          "title": "C>L Vol"
+        },
+        {
+          "index": 9,
+          "title": "C>R Vol"
+        },
+        {
+          "index": 10,
+          "title": "Inv-C>L"
+        },
+        {
+          "index": 11,
+          "title": "Inv-C>R"
+        },
+        {
+          "index": 12,
+          "title": "LFE>L V"
+        },
+        {
+          "index": 13,
+          "title": "LFE>R V"
+        },
+        {
+          "index": 14,
+          "title": "i-LFE>L"
+        },
+        {
+          "index": 15,
+          "title": "i-LFE>R"
+        },
+        {
+          "index": 16,
+          "title": "LS>L Vol"
+        },
+        {
+          "index": 17,
+          "title": "LS>R Vol"
+        },
+        {
+          "index": 18,
+          "title": "In-LS>L"
+        },
+        {
+          "index": 19,
+          "title": "In-LS>R"
+        },
+        {
+          "index": 20,
+          "title": "RS>L Vol"
+        },
+        {
+          "index": 21,
+          "title": "RS>R Vol"
+        },
+        {
+          "index": 22,
+          "title": "In-RS>L"
+        },
+        {
+          "index": 23,
+          "title": "In-RS>R"
+        },
+        {
+          "index": 24,
+          "title": "Outp L"
+        },
+        {
+          "index": 25,
+          "title": "Outp R"
+        },
+        {
+          "index": 27,
+          "title": "Normalize"
+        },
+        {
+          "index": 29,
+          "title": "LFEadGn"
+        },
+        {
+          "index": 31,
+          "title": "Bypass"
+        },
+        {
+          "index": 32,
+          "title": "Link 1"
+        },
+        {
+          "index": 33,
+          "title": "Link 2"
+        },
+        {
+          "index": 34,
+          "title": "Link 3"
+        },
+        {
+          "index": 35,
+          "title": "Link 4"
+        },
+        {
+          "index": 36,
+          "title": "Link 5"
+        },
+        {
+          "index": 37,
+          "title": "Link 6"
+        },
+        {
+          "index": 38,
+          "title": "Master Link"
+        },
+        {
+          "index": 39,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 40,
+      "dropped_repeats": 24
+    },
+    {
+      "slot": 0,
+      "object_title": "Mix8To2",
+      "param_count": 46,
+      "params": [
+        {
+          "index": 0,
+          "title": "L>L Vol"
+        },
+        {
+          "index": 1,
+          "title": "L>R Vol"
+        },
+        {
+          "index": 2,
+          "title": "Inv-L>L"
+        },
+        {
+          "index": 3,
+          "title": "Inv-L>R"
+        },
+        {
+          "index": 4,
+          "title": "R>L Vol"
+        },
+        {
+          "index": 5,
+          "title": "R>R Vol"
+        },
+        {
+          "index": 6,
+          "title": "Inv-R>L"
+        },
+        {
+          "index": 7,
+          "title": "Inv-R>R"
+        },
+        {
+          "index": 8,
+          "title": "C>L Vol"
+        },
+        {
+          "index": 9,
+          "title": "C>R Vol"
+        },
+        {
+          "index": 10,
+          "title": "Inv-C>L"
+        },
+        {
+          "index": 11,
+          "title": "Inv-C>R"
+        },
+        {
+          "index": 12,
+          "title": "LFE>L V"
+        },
+        {
+          "index": 13,
+          "title": "LFE>R V"
+        },
+        {
+          "index": 14,
+          "title": "i-LFE>L"
+        },
+        {
+          "index": 15,
+          "title": "i-LFE>R"
+        },
+        {
+          "index": 16,
+          "title": "LS>L Vol"
+        },
+        {
+          "index": 17,
+          "title": "LS>R Vol"
+        },
+        {
+          "index": 18,
+          "title": "In-LS>L"
+        },
+        {
+          "index": 19,
+          "title": "In-LS>R"
+        },
+        {
+          "index": 20,
+          "title": "RS>L Vol"
+        },
+        {
+          "index": 21,
+          "title": "RS>R Vol"
+        },
+        {
+          "index": 22,
+          "title": "In-RS>L"
+        },
+        {
+          "index": 23,
+          "title": "In-RS>R"
+        },
+        {
+          "index": 24,
+          "title": "LC>L Vol"
+        },
+        {
+          "index": 25,
+          "title": "LC>R Vol"
+        },
+        {
+          "index": 26,
+          "title": "In-LC>L"
+        },
+        {
+          "index": 27,
+          "title": "In-LC>R"
+        },
+        {
+          "index": 28,
+          "title": "RC>L Vol"
+        },
+        {
+          "index": 29,
+          "title": "RC>R Vol"
+        },
+        {
+          "index": 30,
+          "title": "In-RC>L"
+        },
+        {
+          "index": 31,
+          "title": "In-RC>R"
+        },
+        {
+          "index": 32,
+          "title": "Outp L"
+        },
+        {
+          "index": 33,
+          "title": "Outp R"
+        },
+        {
+          "index": 35,
+          "title": "Normalize"
+        },
+        {
+          "index": 36,
+          "title": "LFEadGn"
+        },
+        {
+          "index": 37,
+          "title": "Link Master"
+        },
+        {
+          "index": 39,
+          "title": "Bypass"
+        },
+        {
+          "index": 40,
+          "title": "Link 1"
+        },
+        {
+          "index": 41,
+          "title": "Link 2"
+        },
+        {
+          "index": 42,
+          "title": "Link 3"
+        },
+        {
+          "index": 43,
+          "title": "Link 4"
+        },
+        {
+          "index": 44,
+          "title": "Link 5"
+        },
+        {
+          "index": 45,
+          "title": "Link 6"
+        },
+        {
+          "index": 46,
+          "title": "Link 7"
+        },
+        {
+          "index": 47,
+          "title": "Link 8"
+        }
+      ],
+      "pagination_period": 48,
+      "dropped_repeats": 16
+    },
+    {
+      "slot": 0,
+      "object_title": "MixConvert V6",
+      "param_count": 12,
+      "params": [
+        {
+          "index": 0,
+          "title": "Center"
+        },
+        {
+          "index": 1,
+          "title": "LFE"
+        },
+        {
+          "index": 2,
+          "title": "Surround"
+        },
+        {
+          "index": 3,
+          "title": "Side"
+        },
+        {
+          "index": 4,
+          "title": "Top"
+        },
+        {
+          "index": 5,
+          "title": "LP Filter"
+        },
+        {
+          "index": 6,
+          "title": "Global Lv"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 9,
+          "title": "Solo>Center"
+        },
+        {
+          "index": 11,
+          "title": "Sur>Front"
+        },
+        {
+          "index": 13,
+          "title": "LP Filter"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 36
+    },
+    {
+      "slot": 0,
+      "object_title": "MixerDelay",
+      "param_count": 41,
+      "params": [
+        {
+          "index": 0,
+          "title": "L Vol"
+        },
+        {
+          "index": 1,
+          "title": "R Vol"
+        },
+        {
+          "index": 2,
+          "title": "C Vol"
+        },
+        {
+          "index": 3,
+          "title": "LFE Vol"
+        },
+        {
+          "index": 4,
+          "title": "LS Vol"
+        },
+        {
+          "index": 5,
+          "title": "RS Vol"
+        },
+        {
+          "index": 6,
+          "title": "SL Vol"
+        },
+        {
+          "index": 7,
+          "title": "SR Vol"
+        },
+        {
+          "index": 8,
+          "title": "L Vol"
+        },
+        {
+          "index": 9,
+          "title": "L-Inv"
+        },
+        {
+          "index": 10,
+          "title": "L Delay"
+        },
+        {
+          "index": 11,
+          "title": "L-Solo"
+        },
+        {
+          "index": 12,
+          "title": "R Vol"
+        },
+        {
+          "index": 13,
+          "title": "R-Inv"
+        },
+        {
+          "index": 14,
+          "title": "R Delay"
+        },
+        {
+          "index": 15,
+          "title": "R-Solo"
+        },
+        {
+          "index": 16,
+          "title": "C Vol"
+        },
+        {
+          "index": 17,
+          "title": "C-Inv"
+        },
+        {
+          "index": 18,
+          "title": "C Delay"
+        },
+        {
+          "index": 19,
+          "title": "C-Solo"
+        },
+        {
+          "index": 20,
+          "title": "LFE Vol"
+        },
+        {
+          "index": 21,
+          "title": "LFE-Inv"
+        },
+        {
+          "index": 22,
+          "title": "LFE Dly"
+        },
+        {
+          "index": 23,
+          "title": "LFE-Solo"
+        },
+        {
+          "index": 24,
+          "title": "LS Vol"
+        },
+        {
+          "index": 25,
+          "title": "LS-Inv"
+        },
+        {
+          "index": 26,
+          "title": "LS Dly"
+        },
+        {
+          "index": 27,
+          "title": "LS-Solo"
+        },
+        {
+          "index": 28,
+          "title": "RS Vol"
+        },
+        {
+          "index": 29,
+          "title": "RS-Inv"
+        },
+        {
+          "index": 30,
+          "title": "RS Dly"
+        },
+        {
+          "index": 31,
+          "title": "RS-Solo"
+        },
+        {
+          "index": 32,
+          "title": "SL Vol"
+        },
+        {
+          "index": 33,
+          "title": "SL-Inv"
+        },
+        {
+          "index": 34,
+          "title": "SL Dly"
+        },
+        {
+          "index": 35,
+          "title": "SL-Solo"
+        },
+        {
+          "index": 36,
+          "title": "SR Vol"
+        },
+        {
+          "index": 37,
+          "title": "SR-Inv"
+        },
+        {
+          "index": 38,
+          "title": "SR Dly"
+        },
+        {
+          "index": 39,
+          "title": "SR-Solo"
+        },
+        {
+          "index": 47,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 48,
+      "dropped_repeats": 16
+    },
+    {
+      "slot": 0,
+      "object_title": "MonoToStereo",
+      "param_count": 5,
+      "params": [
+        {
+          "index": 0,
+          "title": "Width"
+        },
+        {
+          "index": 1,
+          "title": "Mon-Out"
+        },
+        {
+          "index": 3,
+          "title": "Delay"
+        },
+        {
+          "index": 4,
+          "title": "Color"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 35
+    },
+    {
+      "slot": 0,
+      "object_title": "MorphFilter",
+      "param_count": 6,
+      "params": [
+        {
+          "index": 0,
+          "title": "Frequ"
+        },
+        {
+          "index": 1,
+          "title": "Reson"
+        },
+        {
+          "index": 2,
+          "title": "Morph"
+        },
+        {
+          "index": 4,
+          "title": "F-Typ-A"
+        },
+        {
+          "index": 5,
+          "title": "F-Typ-B"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 42
+    },
+    {
+      "slot": 0,
+      "object_title": "Octaver",
+      "param_count": 4,
+      "params": [
+        {
+          "index": 0,
+          "title": "Direct"
+        },
+        {
+          "index": 1,
+          "title": "Oct 1"
+        },
+        {
+          "index": 2,
+          "title": "Oct 2"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 28
+    },
+    {
+      "slot": 0,
+      "object_title": "Phaser",
+      "param_count": 12,
+      "params": [
+        {
+          "index": 0,
+          "title": "Rate"
+        },
+        {
+          "index": 1,
+          "title": "Sync On"
+        },
+        {
+          "index": 2,
+          "title": "Sy Note"
+        },
+        {
+          "index": 4,
+          "title": "Feedback"
+        },
+        {
+          "index": 5,
+          "title": "Width"
+        },
+        {
+          "index": 6,
+          "title": "Spatial"
+        },
+        {
+          "index": 7,
+          "title": "Mix"
+        },
+        {
+          "index": 8,
+          "title": "ManuaOn"
+        },
+        {
+          "index": 9,
+          "title": "Manual"
+        },
+        {
+          "index": 12,
+          "title": "Lo Cut"
+        },
+        {
+          "index": 13,
+          "title": "Hi Cut"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 36
+    },
+    {
+      "slot": 0,
+      "object_title": "Pitch Correct",
+      "param_count": 11,
+      "params": [
+        {
+          "index": 0,
+          "title": "Speed"
+        },
+        {
+          "index": 1,
+          "title": "Tolerance"
+        },
+        {
+          "index": 2,
+          "title": "Transp"
+        },
+        {
+          "index": 5,
+          "title": "FrmShift"
+        },
+        {
+          "index": 6,
+          "title": "Optimize"
+        },
+        {
+          "index": 7,
+          "title": "FmPreserv"
+        },
+        {
+          "index": 8,
+          "title": "MidiMode"
+        },
+        {
+          "index": 9,
+          "title": "Scale"
+        },
+        {
+          "index": 10,
+          "title": "Key"
+        },
+        {
+          "index": 13,
+          "title": "MastTune"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 33
+    },
+    {
+      "slot": 0,
+      "object_title": "PitchShifter",
+      "param_count": 16,
+      "params": [
+        {
+          "index": 0,
+          "title": "Pitch"
+        },
+        {
+          "index": 1,
+          "title": "Formant"
+        },
+        {
+          "index": 2,
+          "title": "Preserve"
+        },
+        {
+          "index": 3,
+          "title": "Drive"
+        },
+        {
+          "index": 4,
+          "title": "DrvType"
+        },
+        {
+          "index": 5,
+          "title": "Mix"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "Pitch 2"
+        },
+        {
+          "index": 9,
+          "title": "Formt 2"
+        },
+        {
+          "index": 10,
+          "title": "Presrv2"
+        },
+        {
+          "index": 11,
+          "title": "Drive 2"
+        },
+        {
+          "index": 12,
+          "title": "DrvTyp2"
+        },
+        {
+          "index": 13,
+          "title": "Mix 2"
+        },
+        {
+          "index": 14,
+          "title": "Output2"
+        },
+        {
+          "index": 15,
+          "title": "Unlink"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 48
+    },
+    {
+      "slot": 0,
+      "object_title": "REVelation",
+      "param_count": 28,
+      "params": [
+        {
+          "index": 0,
+          "title": "RevTime"
+        },
+        {
+          "index": 1,
+          "title": "Pre-Dly"
+        },
+        {
+          "index": 2,
+          "title": "Rm Size"
+        },
+        {
+          "index": 3,
+          "title": "Density"
+        },
+        {
+          "index": 4,
+          "title": "Width"
+        },
+        {
+          "index": 5,
+          "title": "Shape"
+        },
+        {
+          "index": 6,
+          "title": "Hi Cut"
+        },
+        {
+          "index": 7,
+          "title": "Mix"
+        },
+        {
+          "index": 8,
+          "title": "ER-Mix"
+        },
+        {
+          "index": 9,
+          "title": "ER Type"
+        },
+        {
+          "index": 10,
+          "title": "ER Size"
+        },
+        {
+          "index": 11,
+          "title": "ER LCut"
+        },
+        {
+          "index": 12,
+          "title": "ER HCut"
+        },
+        {
+          "index": 14,
+          "title": "Rev-Dly"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "Lo Time"
+        },
+        {
+          "index": 17,
+          "title": "Lo Frq"
+        },
+        {
+          "index": 18,
+          "title": "Hi Time"
+        },
+        {
+          "index": 19,
+          "title": "Hi Frq"
+        },
+        {
+          "index": 21,
+          "title": "Mix"
+        },
+        {
+          "index": 22,
+          "title": "Output"
+        },
+        {
+          "index": 23,
+          "title": "Bypass"
+        },
+        {
+          "index": 24,
+          "title": "MOD On"
+        },
+        {
+          "index": 25,
+          "title": "MODRate"
+        },
+        {
+          "index": 26,
+          "title": "MODDepth"
+        },
+        {
+          "index": 29,
+          "title": "Mix"
+        },
+        {
+          "index": 30,
+          "title": "Output"
+        },
+        {
+          "index": 31,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 32,
+      "dropped_repeats": 28
+    },
+    {
+      "slot": 0,
+      "object_title": "REVerence",
+      "param_count": 36,
+      "params": [
+        {
+          "index": 0,
+          "title": "Time"
+        },
+        {
+          "index": 1,
+          "title": "Pre Dly"
+        },
+        {
+          "index": 2,
+          "title": "Size"
+        },
+        {
+          "index": 3,
+          "title": "Level"
+        },
+        {
+          "index": 4,
+          "title": "ER-TSplit"
+        },
+        {
+          "index": 5,
+          "title": "ER-TMix"
+        },
+        {
+          "index": 6,
+          "title": "Mix"
+        },
+        {
+          "index": 7,
+          "title": "Output"
+        },
+        {
+          "index": 8,
+          "title": "R Time"
+        },
+        {
+          "index": 9,
+          "title": "R P-Dly"
+        },
+        {
+          "index": 10,
+          "title": "R Size"
+        },
+        {
+          "index": 11,
+          "title": "R Level"
+        },
+        {
+          "index": 12,
+          "title": "RERTSplit"
+        },
+        {
+          "index": 13,
+          "title": "RERTMix"
+        },
+        {
+          "index": 14,
+          "title": "Mix"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "Reverse"
+        },
+        {
+          "index": 17,
+          "title": "Trim On"
+        },
+        {
+          "index": 18,
+          "title": "TrStart"
+        },
+        {
+          "index": 19,
+          "title": "Tr End"
+        },
+        {
+          "index": 20,
+          "title": "TMinLev"
+        },
+        {
+          "index": 22,
+          "title": "Au-Gain"
+        },
+        {
+          "index": 23,
+          "title": "Pres-Nr"
+        },
+        {
+          "index": 24,
+          "title": "EQ On"
+        },
+        {
+          "index": 25,
+          "title": "LoF On"
+        },
+        {
+          "index": 26,
+          "title": "LoF Frq"
+        },
+        {
+          "index": 27,
+          "title": "LoFGain"
+        },
+        {
+          "index": 29,
+          "title": "MID On"
+        },
+        {
+          "index": 30,
+          "title": "MID Frq"
+        },
+        {
+          "index": 31,
+          "title": "MIDGain"
+        },
+        {
+          "index": 33,
+          "title": "HiF On"
+        },
+        {
+          "index": 34,
+          "title": "HiF Frq"
+        },
+        {
+          "index": 35,
+          "title": "HiFGain"
+        },
+        {
+          "index": 37,
+          "title": "Mix"
+        },
+        {
+          "index": 38,
+          "title": "Output"
+        },
+        {
+          "index": 39,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 40,
+      "dropped_repeats": 23
+    },
+    {
+      "slot": 0,
+      "object_title": "RingModulator",
+      "param_count": 18,
+      "params": [
+        {
+          "index": 0,
+          "title": "Mix"
+        },
+        {
+          "index": 1,
+          "title": "Range"
+        },
+        {
+          "index": 2,
+          "title": "OSCWaveform"
+        },
+        {
+          "index": 3,
+          "title": "OSC Frq"
+        },
+        {
+          "index": 4,
+          "title": "LFOWaveform"
+        },
+        {
+          "index": 5,
+          "title": "LFO Frq"
+        },
+        {
+          "index": 6,
+          "title": "Inv-Ch"
+        },
+        {
+          "index": 7,
+          "title": "Output"
+        },
+        {
+          "index": 8,
+          "title": "OSC Frq"
+        },
+        {
+          "index": 9,
+          "title": "Roll Off"
+        },
+        {
+          "index": 10,
+          "title": "LFOAmnt"
+        },
+        {
+          "index": 11,
+          "title": "EnvAmnt"
+        },
+        {
+          "index": 12,
+          "title": "Attack"
+        },
+        {
+          "index": 13,
+          "title": "Decay"
+        },
+        {
+          "index": 14,
+          "title": "LFO Frq"
+        },
+        {
+          "index": 15,
+          "title": "EnvAmnt"
+        },
+        {
+          "index": 22,
+          "title": "LockR>L"
+        },
+        {
+          "index": 23,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 24,
+      "dropped_repeats": 34
+    },
+    {
+      "slot": 0,
+      "object_title": "RoomWorks",
+      "param_count": 28,
+      "params": [
+        {
+          "index": 0,
+          "title": "Time"
+        },
+        {
+          "index": 1,
+          "title": "Pre Dly"
+        },
+        {
+          "index": 2,
+          "title": "Size"
+        },
+        {
+          "index": 3,
+          "title": "Diffusion"
+        },
+        {
+          "index": 4,
+          "title": "Width"
+        },
+        {
+          "index": 5,
+          "title": "Variation"
+        },
+        {
+          "index": 6,
+          "title": "Hold"
+        },
+        {
+          "index": 7,
+          "title": "Mix"
+        },
+        {
+          "index": 8,
+          "title": "In LoFr"
+        },
+        {
+          "index": 9,
+          "title": "In LoGn"
+        },
+        {
+          "index": 10,
+          "title": "In HfiFr"
+        },
+        {
+          "index": 11,
+          "title": "In HiGn"
+        },
+        {
+          "index": 12,
+          "title": "Dmp LFr"
+        },
+        {
+          "index": 13,
+          "title": "DmpLLev"
+        },
+        {
+          "index": 14,
+          "title": "Dmp HFr"
+        },
+        {
+          "index": 15,
+          "title": "DmpHLev"
+        },
+        {
+          "index": 16,
+          "title": "Env Amnt"
+        },
+        {
+          "index": 17,
+          "title": "Env Attk"
+        },
+        {
+          "index": 18,
+          "title": "Env Rel"
+        },
+        {
+          "index": 19,
+          "title": "Efficiency"
+        },
+        {
+          "index": 20,
+          "title": "Distance"
+        },
+        {
+          "index": 21,
+          "title": "Rotate"
+        },
+        {
+          "index": 22,
+          "title": "Balance"
+        },
+        {
+          "index": 23,
+          "title": "Mix"
+        },
+        {
+          "index": 27,
+          "title": "Export"
+        },
+        {
+          "index": 28,
+          "title": "WetOnly"
+        },
+        {
+          "index": 30,
+          "title": "Mix"
+        },
+        {
+          "index": 31,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 32,
+      "dropped_repeats": 28
+    },
+    {
+      "slot": 0,
+      "object_title": "RoomWorks SE",
+      "param_count": 8,
+      "params": [
+        {
+          "index": 0,
+          "title": "Time"
+        },
+        {
+          "index": 1,
+          "title": "Pre Dly"
+        },
+        {
+          "index": 2,
+          "title": "Diffusion"
+        },
+        {
+          "index": 3,
+          "title": "Lo Level"
+        },
+        {
+          "index": 4,
+          "title": "Hi Level"
+        },
+        {
+          "index": 5,
+          "title": "Efficiency"
+        },
+        {
+          "index": 6,
+          "title": "Mix"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 56
+    },
+    {
+      "slot": 0,
+      "object_title": "Rotary",
+      "param_count": 24,
+      "params": [
+        {
+          "index": 0,
+          "title": "SpeedMd"
+        },
+        {
+          "index": 1,
+          "title": "Speed"
+        },
+        {
+          "index": 2,
+          "title": "Mode"
+        },
+        {
+          "index": 3,
+          "title": "Overdrv"
+        },
+        {
+          "index": 4,
+          "title": "X-Over"
+        },
+        {
+          "index": 5,
+          "title": "Distance"
+        },
+        {
+          "index": 6,
+          "title": "Mix"
+        },
+        {
+          "index": 7,
+          "title": "Output"
+        },
+        {
+          "index": 8,
+          "title": "H Slow"
+        },
+        {
+          "index": 9,
+          "title": "H Fast"
+        },
+        {
+          "index": 10,
+          "title": "H Accel"
+        },
+        {
+          "index": 11,
+          "title": "H Amp M"
+        },
+        {
+          "index": 12,
+          "title": "H FrMod"
+        },
+        {
+          "index": 13,
+          "title": "MicPhas"
+        },
+        {
+          "index": 14,
+          "title": "MicAngle"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "B Slow"
+        },
+        {
+          "index": 17,
+          "title": "B Fast"
+        },
+        {
+          "index": 18,
+          "title": "B Accel"
+        },
+        {
+          "index": 19,
+          "title": "B Amp M"
+        },
+        {
+          "index": 20,
+          "title": "B Level"
+        },
+        {
+          "index": 21,
+          "title": "MicPhas"
+        },
+        {
+          "index": 22,
+          "title": "MicAngle"
+        },
+        {
+          "index": 23,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 24,
+      "dropped_repeats": 40
+    },
+    {
+      "slot": 0,
+      "object_title": "SMPTEGenerator",
+      "param_count": 11,
+      "params": [
+        {
+          "index": 0,
+          "title": "Generate"
+        },
+        {
+          "index": 1,
+          "title": "Link"
+        },
+        {
+          "index": 2,
+          "title": "Still"
+        },
+        {
+          "index": 3,
+          "title": "Hours"
+        },
+        {
+          "index": 4,
+          "title": "Minutes"
+        },
+        {
+          "index": 5,
+          "title": "Seconds"
+        },
+        {
+          "index": 6,
+          "title": "FrmRate"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 12,
+          "title": "Frames"
+        },
+        {
+          "index": 13,
+          "title": "SubFrms"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 33
+    },
+    {
+      "slot": 0,
+      "object_title": "Shimmer",
+      "param_count": 13,
+      "params": [
+        {
+          "index": 0,
+          "title": "Feedback"
+        },
+        {
+          "index": 1,
+          "title": "Frq Mid-Posit"
+        },
+        {
+          "index": 2,
+          "title": "Reverb"
+        },
+        {
+          "index": 3,
+          "title": "Modulation"
+        },
+        {
+          "index": 4,
+          "title": "Pitch"
+        },
+        {
+          "index": 5,
+          "title": "Intensity"
+        },
+        {
+          "index": 6,
+          "title": "Speed"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "Frq Low Cut"
+        },
+        {
+          "index": 9,
+          "title": "Frq Hi Cut"
+        },
+        {
+          "index": 12,
+          "title": "Reset Dly"
+        },
+        {
+          "index": 14,
+          "title": "Mix"
+        },
+        {
+          "index": 15,
+          "title": "Output"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 39
+    },
+    {
+      "slot": 0,
+      "object_title": "StepFilter",
+      "param_count": 15,
+      "params": [
+        {
+          "index": 0,
+          "title": "B Cutoff"
+        },
+        {
+          "index": 1,
+          "title": "CutRandm"
+        },
+        {
+          "index": 2,
+          "title": "B Reson"
+        },
+        {
+          "index": 3,
+          "title": "ResRandm"
+        },
+        {
+          "index": 4,
+          "title": "F-Type"
+        },
+        {
+          "index": 5,
+          "title": "F-Mode"
+        },
+        {
+          "index": 6,
+          "title": "HrdClip"
+        },
+        {
+          "index": 7,
+          "title": "Glide"
+        },
+        {
+          "index": 8,
+          "title": "Sync On"
+        },
+        {
+          "index": 9,
+          "title": "Sy-Rate"
+        },
+        {
+          "index": 11,
+          "title": "Pattern"
+        },
+        {
+          "index": 12,
+          "title": "Step No"
+        },
+        {
+          "index": 13,
+          "title": "Mix"
+        },
+        {
+          "index": 14,
+          "title": "Output"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 45
+    },
+    {
+      "slot": 0,
+      "object_title": "StereoEnhancer",
+      "param_count": 7,
+      "params": [
+        {
+          "index": 0,
+          "title": "Width"
+        },
+        {
+          "index": 1,
+          "title": "Mon-Out"
+        },
+        {
+          "index": 2,
+          "title": "DelayOn"
+        },
+        {
+          "index": 3,
+          "title": "Delay"
+        },
+        {
+          "index": 4,
+          "title": "ColorOn"
+        },
+        {
+          "index": 5,
+          "title": "Color"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 49
+    },
+    {
+      "slot": 0,
+      "object_title": "StudioChorus",
+      "param_count": 24,
+      "params": [
+        {
+          "index": 0,
+          "title": "1 Rate"
+        },
+        {
+          "index": 1,
+          "title": "1 Delay"
+        },
+        {
+          "index": 2,
+          "title": "1 Width"
+        },
+        {
+          "index": 3,
+          "title": "1 Mix"
+        },
+        {
+          "index": 4,
+          "title": "2 Rate"
+        },
+        {
+          "index": 5,
+          "title": "2 Delay"
+        },
+        {
+          "index": 6,
+          "title": "2 Width"
+        },
+        {
+          "index": 7,
+          "title": "2 Mix"
+        },
+        {
+          "index": 8,
+          "title": "1 Rate"
+        },
+        {
+          "index": 9,
+          "title": "1SyncOn"
+        },
+        {
+          "index": 10,
+          "title": "Sy Note"
+        },
+        {
+          "index": 11,
+          "title": "1 Shape"
+        },
+        {
+          "index": 12,
+          "title": "1 Spatial"
+        },
+        {
+          "index": 13,
+          "title": "1LoFilt"
+        },
+        {
+          "index": 14,
+          "title": "1HiFilt"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "2 Rate"
+        },
+        {
+          "index": 17,
+          "title": "2SyncOn"
+        },
+        {
+          "index": 18,
+          "title": "Sy Note"
+        },
+        {
+          "index": 19,
+          "title": "2 Shape"
+        },
+        {
+          "index": 20,
+          "title": "2 Spatial"
+        },
+        {
+          "index": 21,
+          "title": "2LoFilt"
+        },
+        {
+          "index": 22,
+          "title": "2HiFilt"
+        },
+        {
+          "index": 23,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 24,
+      "dropped_repeats": 40
+    },
+    {
+      "slot": 0,
+      "object_title": "StudioEQ",
+      "param_count": 32,
+      "params": [
+        {
+          "index": 0,
+          "title": "1 Freq"
+        },
+        {
+          "index": 1,
+          "title": "1 Gain"
+        },
+        {
+          "index": 2,
+          "title": "2 Freq"
+        },
+        {
+          "index": 3,
+          "title": "2 Gain"
+        },
+        {
+          "index": 4,
+          "title": "3 Freq"
+        },
+        {
+          "index": 5,
+          "title": "3 Gain"
+        },
+        {
+          "index": 6,
+          "title": "4 Freq"
+        },
+        {
+          "index": 7,
+          "title": "4 Gain"
+        },
+        {
+          "index": 8,
+          "title": "1 Bd On"
+        },
+        {
+          "index": 9,
+          "title": "1 Freq"
+        },
+        {
+          "index": 10,
+          "title": "1 Gain"
+        },
+        {
+          "index": 11,
+          "title": "1 Q"
+        },
+        {
+          "index": 12,
+          "title": "1 Type"
+        },
+        {
+          "index": 13,
+          "title": "Auto-Gn"
+        },
+        {
+          "index": 14,
+          "title": "MainOutput"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "2 Bd On"
+        },
+        {
+          "index": 17,
+          "title": "2 Freq"
+        },
+        {
+          "index": 18,
+          "title": "2 Gain"
+        },
+        {
+          "index": 19,
+          "title": "2 Q"
+        },
+        {
+          "index": 20,
+          "title": "3 Bd On"
+        },
+        {
+          "index": 21,
+          "title": "3 Freq"
+        },
+        {
+          "index": 22,
+          "title": "3 Gain"
+        },
+        {
+          "index": 23,
+          "title": "3 Q"
+        },
+        {
+          "index": 24,
+          "title": "4 Bd On"
+        },
+        {
+          "index": 25,
+          "title": "4 Freq"
+        },
+        {
+          "index": 26,
+          "title": "4 Gain"
+        },
+        {
+          "index": 27,
+          "title": "4 Q"
+        },
+        {
+          "index": 28,
+          "title": "4 Type"
+        },
+        {
+          "index": 29,
+          "title": "Auto-Gn"
+        },
+        {
+          "index": 30,
+          "title": "MainOutput"
+        },
+        {
+          "index": 31,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 32,
+      "dropped_repeats": 32
+    },
+    {
+      "slot": 0,
+      "object_title": "SuperVision",
+      "param_count": 6,
+      "params": [
+        {
+          "index": 0,
+          "title": "PausAll"
+        },
+        {
+          "index": 8,
+          "title": "PausAll"
+        },
+        {
+          "index": 16,
+          "title": "PausAll"
+        },
+        {
+          "index": 24,
+          "title": "PausAll"
+        },
+        {
+          "index": 32,
+          "title": "PausAll"
+        },
+        {
+          "index": 40,
+          "title": "PausAll"
+        }
+      ]
+    },
+    {
+      "slot": 0,
+      "object_title": "TestGenerator",
+      "param_count": 4,
+      "params": [
+        {
+          "index": 0,
+          "title": "Type"
+        },
+        {
+          "index": 2,
+          "title": "Freq"
+        },
+        {
+          "index": 4,
+          "title": "Gain"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 28
+    },
+    {
+      "slot": 0,
+      "object_title": "ToneBooster",
+      "param_count": 5,
+      "params": [
+        {
+          "index": 0,
+          "title": "Tone"
+        },
+        {
+          "index": 2,
+          "title": "Gain"
+        },
+        {
+          "index": 3,
+          "title": "Width"
+        },
+        {
+          "index": 5,
+          "title": "Mode"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 35
+    },
+    {
+      "slot": 0,
+      "object_title": "Tranceformer",
+      "param_count": 11,
+      "params": [
+        {
+          "index": 0,
+          "title": "Speed"
+        },
+        {
+          "index": 1,
+          "title": "Sync On"
+        },
+        {
+          "index": 2,
+          "title": "Waveform"
+        },
+        {
+          "index": 3,
+          "title": "Pitch"
+        },
+        {
+          "index": 4,
+          "title": "Depth"
+        },
+        {
+          "index": 5,
+          "title": "Input"
+        },
+        {
+          "index": 6,
+          "title": "Mix"
+        },
+        {
+          "index": 7,
+          "title": "Output"
+        },
+        {
+          "index": 11,
+          "title": "LFO On"
+        },
+        {
+          "index": 12,
+          "title": "Mono-St"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 33
+    },
+    {
+      "slot": 0,
+      "object_title": "Tremolo",
+      "param_count": 7,
+      "params": [
+        {
+          "index": 0,
+          "title": "Rate"
+        },
+        {
+          "index": 1,
+          "title": "Sync On"
+        },
+        {
+          "index": 2,
+          "title": "Sy Note"
+        },
+        {
+          "index": 3,
+          "title": "Depth"
+        },
+        {
+          "index": 4,
+          "title": "Spatial"
+        },
+        {
+          "index": 5,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 49
+    },
+    {
+      "slot": 0,
+      "object_title": "Tuner",
+      "param_count": 8,
+      "params": [
+        {
+          "index": 0,
+          "title": "Mute"
+        },
+        {
+          "index": 1,
+          "title": "Locked"
+        },
+        {
+          "index": 2,
+          "title": "Base"
+        },
+        {
+          "index": 3,
+          "title": "Oct"
+        },
+        {
+          "index": 4,
+          "title": "Note"
+        },
+        {
+          "index": 5,
+          "title": "Cent"
+        },
+        {
+          "index": 6,
+          "title": "Strobe"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 56
+    },
+    {
+      "slot": 0,
+      "object_title": "Underwater",
+      "param_count": 3,
+      "params": [
+        {
+          "index": 0,
+          "title": "Frequency"
+        },
+        {
+          "index": 2,
+          "title": "Resample"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 21
+    },
+    {
+      "slot": 0,
+      "object_title": "VST MultiPanner",
+      "param_count": 18,
+      "params": [
+        {
+          "index": 0,
+          "title": "Pan LR"
+        },
+        {
+          "index": 1,
+          "title": "Pan FR"
+        },
+        {
+          "index": 2,
+          "title": "Pan>Top"
+        },
+        {
+          "index": 3,
+          "title": "Center"
+        },
+        {
+          "index": 4,
+          "title": "D Front"
+        },
+        {
+          "index": 5,
+          "title": "D  F/R"
+        },
+        {
+          "index": 6,
+          "title": "D  Rear"
+        },
+        {
+          "index": 7,
+          "title": "D Height"
+        },
+        {
+          "index": 8,
+          "title": "Rotate"
+        },
+        {
+          "index": 9,
+          "title": "Tilt  Y"
+        },
+        {
+          "index": 10,
+          "title": "Tilt  X"
+        },
+        {
+          "index": 11,
+          "title": "Orbit C"
+        },
+        {
+          "index": 12,
+          "title": "Radius"
+        },
+        {
+          "index": 13,
+          "title": "Sc Width"
+        },
+        {
+          "index": 14,
+          "title": "Sc Depth"
+        },
+        {
+          "index": 15,
+          "title": "Sc Height"
+        },
+        {
+          "index": 16,
+          "title": "LFE Level"
+        },
+        {
+          "index": 23,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 24,
+      "dropped_repeats": 34
+    },
+    {
+      "slot": 0,
+      "object_title": "Vibrato",
+      "param_count": 6,
+      "params": [
+        {
+          "index": 0,
+          "title": "Rate"
+        },
+        {
+          "index": 1,
+          "title": "Sync On"
+        },
+        {
+          "index": 2,
+          "title": "Sy Note"
+        },
+        {
+          "index": 3,
+          "title": "Depth"
+        },
+        {
+          "index": 4,
+          "title": "Spatial"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 42
+    },
+    {
+      "slot": 0,
+      "object_title": "VocalChain",
+      "param_count": 61,
+      "params": [
+        {
+          "index": 0,
+          "title": "CutF On"
+        },
+        {
+          "index": 1,
+          "title": "LC Freq"
+        },
+        {
+          "index": 2,
+          "title": "LCSlope"
+        },
+        {
+          "index": 3,
+          "title": "Page"
+        },
+        {
+          "index": 4,
+          "title": "Solo"
+        },
+        {
+          "index": 5,
+          "title": "Input"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "CutF On"
+        },
+        {
+          "index": 9,
+          "title": "HC Freq"
+        },
+        {
+          "index": 10,
+          "title": "HCSlope"
+        },
+        {
+          "index": 11,
+          "title": "Gate On"
+        },
+        {
+          "index": 12,
+          "title": "G Thres"
+        },
+        {
+          "index": 13,
+          "title": "DeE1 On"
+        },
+        {
+          "index": 14,
+          "title": "DeE1Red"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "DyF1 On"
+        },
+        {
+          "index": 17,
+          "title": "DF1Thr1"
+        },
+        {
+          "index": 18,
+          "title": "DF1Thr2"
+        },
+        {
+          "index": 19,
+          "title": "Comp1On"
+        },
+        {
+          "index": 20,
+          "title": "C1Compr"
+        },
+        {
+          "index": 21,
+          "title": "PitchOn"
+        },
+        {
+          "index": 22,
+          "title": "Pit Mix"
+        },
+        {
+          "index": 23,
+          "title": "Bypass"
+        },
+        {
+          "index": 24,
+          "title": "Exci On"
+        },
+        {
+          "index": 25,
+          "title": "ExciAmn"
+        },
+        {
+          "index": 26,
+          "title": "SaturOn"
+        },
+        {
+          "index": 27,
+          "title": "SatrDrv"
+        },
+        {
+          "index": 28,
+          "title": "Comp2On"
+        },
+        {
+          "index": 29,
+          "title": "C2Compr"
+        },
+        {
+          "index": 30,
+          "title": "DyF2 On"
+        },
+        {
+          "index": 31,
+          "title": "DF2 Thr"
+        },
+        {
+          "index": 32,
+          "title": "DeE2 On"
+        },
+        {
+          "index": 33,
+          "title": "DeE2Red"
+        },
+        {
+          "index": 34,
+          "title": "ImagrOn"
+        },
+        {
+          "index": 35,
+          "title": "ImgSend"
+        },
+        {
+          "index": 36,
+          "title": "DelayOn"
+        },
+        {
+          "index": 37,
+          "title": "DlySend"
+        },
+        {
+          "index": 38,
+          "title": "RevrbOn"
+        },
+        {
+          "index": 39,
+          "title": "RevSend"
+        },
+        {
+          "index": 40,
+          "title": "CutF On"
+        },
+        {
+          "index": 42,
+          "title": "LC Freq"
+        },
+        {
+          "index": 43,
+          "title": "LCSlope"
+        },
+        {
+          "index": 45,
+          "title": "HC Freq"
+        },
+        {
+          "index": 46,
+          "title": "HCSlope"
+        },
+        {
+          "index": 48,
+          "title": "Gate On"
+        },
+        {
+          "index": 49,
+          "title": "G Thres"
+        },
+        {
+          "index": 50,
+          "title": "G Range"
+        },
+        {
+          "index": 51,
+          "title": "G Relea"
+        },
+        {
+          "index": 52,
+          "title": "SC On"
+        },
+        {
+          "index": 53,
+          "title": "SC Freq"
+        },
+        {
+          "index": 54,
+          "title": "SC Q"
+        },
+        {
+          "index": 55,
+          "title": "SCInput"
+        },
+        {
+          "index": 56,
+          "title": "PitchOn"
+        },
+        {
+          "index": 57,
+          "title": "PiDetun"
+        },
+        {
+          "index": 58,
+          "title": "Pi Corr"
+        },
+        {
+          "index": 59,
+          "title": "PFormSh"
+        },
+        {
+          "index": 60,
+          "title": "Pit Mix"
+        },
+        {
+          "index": 61,
+          "title": "POption"
+        },
+        {
+          "index": 62,
+          "title": "Pi Key"
+        },
+        {
+          "index": 63,
+          "title": "P Scale"
+        }
+      ]
+    },
+    {
+      "slot": 0,
+      "object_title": "Vocoder",
+      "param_count": 26,
+      "params": [
+        {
+          "index": 0,
+          "title": "Bands"
+        },
+        {
+          "index": 1,
+          "title": "Mode"
+        },
+        {
+          "index": 2,
+          "title": "Note"
+        },
+        {
+          "index": 3,
+          "title": "Octave"
+        },
+        {
+          "index": 4,
+          "title": "PitchBnd"
+        },
+        {
+          "index": 5,
+          "title": "Input"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "FineTun"
+        },
+        {
+          "index": 9,
+          "title": "NoisMix"
+        },
+        {
+          "index": 10,
+          "title": "NoisMod"
+        },
+        {
+          "index": 13,
+          "title": "Drift"
+        },
+        {
+          "index": 14,
+          "title": "Glide"
+        },
+        {
+          "index": 15,
+          "title": "Bright"
+        },
+        {
+          "index": 16,
+          "title": "LfoRate"
+        },
+        {
+          "index": 17,
+          "title": "Vibrato"
+        },
+        {
+          "index": 18,
+          "title": "Detune"
+        },
+        {
+          "index": 21,
+          "title": "Bandwidth"
+        },
+        {
+          "index": 22,
+          "title": "MinFreq"
+        },
+        {
+          "index": 23,
+          "title": "MaxFreq"
+        },
+        {
+          "index": 24,
+          "title": "Hi Thru"
+        },
+        {
+          "index": 25,
+          "title": "TalkThru"
+        },
+        {
+          "index": 26,
+          "title": "GapThru"
+        },
+        {
+          "index": 29,
+          "title": "Emphas"
+        },
+        {
+          "index": 30,
+          "title": "Log-Lin"
+        },
+        {
+          "index": 31,
+          "title": "Env Spd"
+        }
+      ],
+      "pagination_period": 32,
+      "dropped_repeats": 26
+    },
+    {
+      "slot": 0,
+      "object_title": "Volume",
+      "param_count": 58,
+      "params": [
+        {
+          "index": 0,
+          "title": "Gain"
+        },
+        {
+          "index": 1,
+          "title": "Gain L"
+        },
+        {
+          "index": 2,
+          "title": "Gain R"
+        },
+        {
+          "index": 3,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 4,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 5,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 6,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 7,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 8,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 9,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 10,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 11,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 12,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 13,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 14,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 15,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 16,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 17,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 18,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 19,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 20,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 21,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 22,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 23,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 24,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 25,
+          "title": "Gain N/A"
+        },
+        {
+          "index": 26,
+          "title": "Reset"
+        },
+        {
+          "index": 27,
+          "title": "LockGain"
+        },
+        {
+          "index": 28,
+          "title": "GainResolution"
+        },
+        {
+          "index": 29,
+          "title": "Ch-View"
+        },
+        {
+          "index": 30,
+          "title": "VolumeMax"
+        },
+        {
+          "index": 31,
+          "title": "Bypass"
+        },
+        {
+          "index": 32,
+          "title": "Randomize"
+        },
+        {
+          "index": 33,
+          "title": "Output 1"
+        },
+        {
+          "index": 34,
+          "title": "Output 2"
+        },
+        {
+          "index": 35,
+          "title": "Output 3"
+        },
+        {
+          "index": 36,
+          "title": "Output 4"
+        },
+        {
+          "index": 37,
+          "title": "Output 5"
+        },
+        {
+          "index": 38,
+          "title": "Output 6"
+        },
+        {
+          "index": 39,
+          "title": "Output 7"
+        },
+        {
+          "index": 40,
+          "title": "Output 8"
+        },
+        {
+          "index": 41,
+          "title": "Output 9"
+        },
+        {
+          "index": 42,
+          "title": "Output 10"
+        },
+        {
+          "index": 43,
+          "title": "Output 11"
+        },
+        {
+          "index": 44,
+          "title": "Output 12"
+        },
+        {
+          "index": 45,
+          "title": "Output 13"
+        },
+        {
+          "index": 46,
+          "title": "Output 14"
+        },
+        {
+          "index": 47,
+          "title": "Output 15"
+        },
+        {
+          "index": 48,
+          "title": "Output 16"
+        },
+        {
+          "index": 49,
+          "title": "Output 17"
+        },
+        {
+          "index": 50,
+          "title": "Output 18"
+        },
+        {
+          "index": 51,
+          "title": "Output 19"
+        },
+        {
+          "index": 52,
+          "title": "Output 20"
+        },
+        {
+          "index": 53,
+          "title": "Output 21"
+        },
+        {
+          "index": 54,
+          "title": "Output 22"
+        },
+        {
+          "index": 55,
+          "title": "Output 23"
+        },
+        {
+          "index": 56,
+          "title": "Output 24"
+        },
+        {
+          "index": 57,
+          "title": "Output 25"
+        }
+      ]
+    },
+    {
+      "slot": 0,
+      "object_title": "WahWah",
+      "param_count": 9,
+      "params": [
+        {
+          "index": 0,
+          "title": "Pedal"
+        },
+        {
+          "index": 1,
+          "title": "Fr Low"
+        },
+        {
+          "index": 2,
+          "title": "Fr High"
+        },
+        {
+          "index": 3,
+          "title": "W  Low"
+        },
+        {
+          "index": 4,
+          "title": "W  High"
+        },
+        {
+          "index": 5,
+          "title": "Gn Low"
+        },
+        {
+          "index": 6,
+          "title": "Gn High"
+        },
+        {
+          "index": 7,
+          "title": "Slope"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 27
+    },
+    {
+      "slot": 1,
+      "object_title": "ModMachine",
+      "param_count": 31,
+      "params": [
+        {
+          "index": 0,
+          "title": "DlyTime"
+        },
+        {
+          "index": 1,
+          "title": "TSyncOn"
+        },
+        {
+          "index": 2,
+          "title": "SyncNote"
+        },
+        {
+          "index": 3,
+          "title": "Feedback"
+        },
+        {
+          "index": 4,
+          "title": "Drive"
+        },
+        {
+          "index": 5,
+          "title": "Dry-Wet"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "ModRate"
+        },
+        {
+          "index": 9,
+          "title": "MSyncOn"
+        },
+        {
+          "index": 10,
+          "title": "SyncNote"
+        },
+        {
+          "index": 11,
+          "title": "ModWidth"
+        },
+        {
+          "index": 12,
+          "title": "Nudge"
+        },
+        {
+          "index": 13,
+          "title": "F Posit"
+        },
+        {
+          "index": 14,
+          "title": "F Type"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "F Freq"
+        },
+        {
+          "index": 17,
+          "title": "Man-LFO"
+        },
+        {
+          "index": 18,
+          "title": "F Speed"
+        },
+        {
+          "index": 19,
+          "title": "FSyncOn"
+        },
+        {
+          "index": 20,
+          "title": "SyncNote F"
+        },
+        {
+          "index": 21,
+          "title": "Frq Low"
+        },
+        {
+          "index": 22,
+          "title": "Frq High"
+        },
+        {
+          "index": 23,
+          "title": "F Spatial"
+        },
+        {
+          "index": 24,
+          "title": "F Q-Fac"
+        },
+        {
+          "index": 25,
+          "title": "Man-LFO"
+        },
+        {
+          "index": 26,
+          "title": "Q Speed"
+        },
+        {
+          "index": 27,
+          "title": "QSyncOn"
+        },
+        {
+          "index": 28,
+          "title": "SyncNote Q"
+        },
+        {
+          "index": 29,
+          "title": "Q Low"
+        },
+        {
+          "index": 30,
+          "title": "Q High"
+        },
+        {
+          "index": 31,
+          "title": "Q Spatial"
+        }
+      ],
+      "pagination_period": 32,
+      "dropped_repeats": 15
+    },
+    {
+      "slot": 2,
+      "object_title": "MonoDelay",
+      "param_count": 12,
+      "params": [
+        {
+          "index": 0,
+          "title": "Delay"
+        },
+        {
+          "index": 1,
+          "title": "Sync On"
+        },
+        {
+          "index": 2,
+          "title": "SyncNote"
+        },
+        {
+          "index": 3,
+          "title": "Feedback"
+        },
+        {
+          "index": 6,
+          "title": "Dry-Wet"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "Lo F On"
+        },
+        {
+          "index": 9,
+          "title": "LoF Frq"
+        },
+        {
+          "index": 11,
+          "title": "Hi F On"
+        },
+        {
+          "index": 12,
+          "title": "HiF Frq"
+        },
+        {
+          "index": 14,
+          "title": "Dry-Wet"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 24
+    },
+    {
+      "slot": 3,
+      "object_title": "StudioDelay",
+      "param_count": 26,
+      "params": [
+        {
+          "index": 0,
+          "title": "Delay Time"
+        },
+        {
+          "index": 1,
+          "title": "Feedback"
+        },
+        {
+          "index": 2,
+          "title": "Pattern"
+        },
+        {
+          "index": 3,
+          "title": "Frq Mid-Position"
+        },
+        {
+          "index": 4,
+          "title": "Spatial"
+        },
+        {
+          "index": 5,
+          "title": "Output"
+        },
+        {
+          "index": 6,
+          "title": "Mix"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "Tempo Sync"
+        },
+        {
+          "index": 9,
+          "title": "Sync Note"
+        },
+        {
+          "index": 10,
+          "title": "Frq Low Cut"
+        },
+        {
+          "index": 11,
+          "title": "Frq High Cut"
+        },
+        {
+          "index": 12,
+          "title": "Modulation"
+        },
+        {
+          "index": 13,
+          "title": "Mod Type"
+        },
+        {
+          "index": 14,
+          "title": "Mod Position"
+        },
+        {
+          "index": 15,
+          "title": "Age"
+        },
+        {
+          "index": 16,
+          "title": "Distortion"
+        },
+        {
+          "index": 17,
+          "title": "Dist  Type"
+        },
+        {
+          "index": 18,
+          "title": "Dist Position"
+        },
+        {
+          "index": 20,
+          "title": "Reverb"
+        },
+        {
+          "index": 21,
+          "title": "Rev Type"
+        },
+        {
+          "index": 22,
+          "title": "Rev Position"
+        },
+        {
+          "index": 24,
+          "title": "Pitch"
+        },
+        {
+          "index": 25,
+          "title": "Pitch Type"
+        },
+        {
+          "index": 26,
+          "title": "Pitch Position"
+        },
+        {
+          "index": 31,
+          "title": "Erase Dly Line"
+        }
+      ],
+      "pagination_period": 32,
+      "dropped_repeats": 16
+    },
+    {
+      "slot": 4,
+      "object_title": "PingPongDelay",
+      "param_count": 15,
+      "params": [
+        {
+          "index": 0,
+          "title": "Delay"
+        },
+        {
+          "index": 1,
+          "title": "Sync On"
+        },
+        {
+          "index": 2,
+          "title": "SyncNote"
+        },
+        {
+          "index": 3,
+          "title": "Feedback"
+        },
+        {
+          "index": 4,
+          "title": "StartPosit"
+        },
+        {
+          "index": 5,
+          "title": "Spatial"
+        },
+        {
+          "index": 6,
+          "title": "Mix"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "Lo F On"
+        },
+        {
+          "index": 9,
+          "title": "Lo F Frq"
+        },
+        {
+          "index": 11,
+          "title": "Hi F On"
+        },
+        {
+          "index": 12,
+          "title": "Hi F Frq"
+        },
+        {
+          "index": 13,
+          "title": "Spatial"
+        },
+        {
+          "index": 14,
+          "title": "Mix"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 30
+    },
+    {
+      "slot": 5,
+      "object_title": "AmpSimulator",
+      "param_count": 12,
+      "params": [
+        {
+          "index": 0,
+          "title": "A Model"
+        },
+        {
+          "index": 1,
+          "title": "Drive"
+        },
+        {
+          "index": 2,
+          "title": "Bass"
+        },
+        {
+          "index": 3,
+          "title": "Mid"
+        },
+        {
+          "index": 4,
+          "title": "Treble"
+        },
+        {
+          "index": 5,
+          "title": "Presence"
+        },
+        {
+          "index": 6,
+          "title": "Volume"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "Spk Type"
+        },
+        {
+          "index": 10,
+          "title": "Lo Damp"
+        },
+        {
+          "index": 11,
+          "title": "Hi Damp"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 24
+    },
+    {
+      "slot": 5,
+      "object_title": "Bitcrusher",
+      "param_count": 6,
+      "params": [
+        {
+          "index": 0,
+          "title": "Mode"
+        },
+        {
+          "index": 1,
+          "title": "Spl Divider"
+        },
+        {
+          "index": 2,
+          "title": "Depth"
+        },
+        {
+          "index": 5,
+          "title": "Mix"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 30
+    },
+    {
+      "slot": 5,
+      "object_title": "Black Valve",
+      "param_count": 7,
+      "params": [
+        {
+          "index": 0,
+          "title": "Drive"
+        },
+        {
+          "index": 1,
+          "title": "Input"
+        },
+        {
+          "index": 2,
+          "title": "PeakRed"
+        },
+        {
+          "index": 3,
+          "title": "GRMeter"
+        },
+        {
+          "index": 4,
+          "title": "Dry-Wet"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 35
+    },
+    {
+      "slot": 5,
+      "object_title": "Compressor",
+      "param_count": 13,
+      "params": [
+        {
+          "index": 0,
+          "title": "Threshold"
+        },
+        {
+          "index": 1,
+          "title": "Ratio"
+        },
+        {
+          "index": 2,
+          "title": "Attack"
+        },
+        {
+          "index": 3,
+          "title": "Release"
+        },
+        {
+          "index": 4,
+          "title": "AutoRelease"
+        },
+        {
+          "index": 5,
+          "title": "Hold"
+        },
+        {
+          "index": 6,
+          "title": "MakeUp"
+        },
+        {
+          "index": 7,
+          "title": "AutoMakeUp"
+        },
+        {
+          "index": 8,
+          "title": "Soft Knee"
+        },
+        {
+          "index": 9,
+          "title": "High Ratio"
+        },
+        {
+          "index": 13,
+          "title": "Peak-RMS"
+        },
+        {
+          "index": 14,
+          "title": "Dry Mix"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 26
+    },
+    {
+      "slot": 5,
+      "object_title": "DaTube",
+      "param_count": 4,
+      "params": [
+        {
+          "index": 0,
+          "title": "Drive"
+        },
+        {
+          "index": 5,
+          "title": "Mix"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 20
+    },
+    {
+      "slot": 5,
+      "object_title": "DeEsser",
+      "param_count": 14,
+      "params": [
+        {
+          "index": 0,
+          "title": "Threshold"
+        },
+        {
+          "index": 1,
+          "title": "AutoThreshold"
+        },
+        {
+          "index": 2,
+          "title": "Reduction"
+        },
+        {
+          "index": 3,
+          "title": "Release"
+        },
+        {
+          "index": 4,
+          "title": "Low Frq"
+        },
+        {
+          "index": 5,
+          "title": "Hi Frq"
+        },
+        {
+          "index": 6,
+          "title": "Solo"
+        },
+        {
+          "index": 7,
+          "title": "Diff"
+        },
+        {
+          "index": 8,
+          "title": "SC On"
+        },
+        {
+          "index": 9,
+          "title": "SC Freq"
+        },
+        {
+          "index": 10,
+          "title": "SC Q"
+        },
+        {
+          "index": 11,
+          "title": "SC Monitor"
+        },
+        {
+          "index": 13,
+          "title": "Live On"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 28
+    },
+    {
+      "slot": 5,
+      "object_title": "Distortion",
+      "param_count": 8,
+      "params": [
+        {
+          "index": 0,
+          "title": "Boost"
+        },
+        {
+          "index": 1,
+          "title": "Feedback"
+        },
+        {
+          "index": 2,
+          "title": "Tone"
+        },
+        {
+          "index": 3,
+          "title": "Spatial"
+        },
+        {
+          "index": 4,
+          "title": "O-Sampling"
+        },
+        {
+          "index": 5,
+          "title": "Mix"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 40
+    },
+    {
+      "slot": 5,
+      "object_title": "Distroyer",
+      "param_count": 16,
+      "params": [
+        {
+          "index": 0,
+          "title": "Boost"
+        },
+        {
+          "index": 1,
+          "title": "Drive"
+        },
+        {
+          "index": 2,
+          "title": "Tone"
+        },
+        {
+          "index": 3,
+          "title": "Spatial"
+        },
+        {
+          "index": 4,
+          "title": "Offset"
+        },
+        {
+          "index": 5,
+          "title": "Mix"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "HSh Frq"
+        },
+        {
+          "index": 9,
+          "title": "HShGain"
+        },
+        {
+          "index": 10,
+          "title": "DC-F On"
+        },
+        {
+          "index": 11,
+          "title": "O-Sampling"
+        },
+        {
+          "index": 12,
+          "title": "Offset"
+        },
+        {
+          "index": 13,
+          "title": "F Loi Fr"
+        },
+        {
+          "index": 14,
+          "title": "F Hi Fr"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 32
+    },
+    {
+      "slot": 5,
+      "object_title": "EnvelopeShaper",
+      "param_count": 5,
+      "params": [
+        {
+          "index": 0,
+          "title": "Attack"
+        },
+        {
+          "index": 1,
+          "title": "Length"
+        },
+        {
+          "index": 3,
+          "title": "Release"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 25
+    },
+    {
+      "slot": 5,
+      "object_title": "Expander",
+      "param_count": 9,
+      "params": [
+        {
+          "index": 0,
+          "title": "Threshold"
+        },
+        {
+          "index": 1,
+          "title": "Ratio"
+        },
+        {
+          "index": 2,
+          "title": "SoftKnee"
+        },
+        {
+          "index": 3,
+          "title": "Fall"
+        },
+        {
+          "index": 4,
+          "title": "Hold"
+        },
+        {
+          "index": 5,
+          "title": "Rise"
+        },
+        {
+          "index": 6,
+          "title": "AutoRise"
+        },
+        {
+          "index": 7,
+          "title": "Peak-RMS"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 18
+    },
+    {
+      "slot": 5,
+      "object_title": "Gate",
+      "param_count": 15,
+      "params": [
+        {
+          "index": 0,
+          "title": "Threshold"
+        },
+        {
+          "index": 1,
+          "title": "Attack"
+        },
+        {
+          "index": 2,
+          "title": "Hold"
+        },
+        {
+          "index": 3,
+          "title": "Release"
+        },
+        {
+          "index": 4,
+          "title": "AutoRelease"
+        },
+        {
+          "index": 5,
+          "title": "Range"
+        },
+        {
+          "index": 6,
+          "title": "Peak-RMS"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "SC On"
+        },
+        {
+          "index": 9,
+          "title": "Filt Type"
+        },
+        {
+          "index": 10,
+          "title": "Center"
+        },
+        {
+          "index": 11,
+          "title": "Q-Factor"
+        },
+        {
+          "index": 12,
+          "title": "SC Monitor"
+        },
+        {
+          "index": 14,
+          "title": "Live On"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 30
+    },
+    {
+      "slot": 5,
+      "object_title": "Grungelizer",
+      "param_count": 9,
+      "params": [
+        {
+          "index": 0,
+          "title": "Noise"
+        },
+        {
+          "index": 1,
+          "title": "Crackle"
+        },
+        {
+          "index": 2,
+          "title": "Speed"
+        },
+        {
+          "index": 3,
+          "title": "Distortion"
+        },
+        {
+          "index": 4,
+          "title": "EQ"
+        },
+        {
+          "index": 5,
+          "title": "AC"
+        },
+        {
+          "index": 6,
+          "title": "AC Freq"
+        },
+        {
+          "index": 7,
+          "title": "Mix"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 18
+    },
+    {
+      "slot": 5,
+      "object_title": "Limiter",
+      "param_count": 5,
+      "params": [
+        {
+          "index": 0,
+          "title": "Input"
+        },
+        {
+          "index": 3,
+          "title": "Release"
+        },
+        {
+          "index": 4,
+          "title": "AutoRelease"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 25
+    },
+    {
+      "slot": 5,
+      "object_title": "Magneto II",
+      "param_count": 10,
+      "params": [
+        {
+          "index": 0,
+          "title": "Sat-On"
+        },
+        {
+          "index": 1,
+          "title": "Saturation"
+        },
+        {
+          "index": 2,
+          "title": "Lo Freq"
+        },
+        {
+          "index": 3,
+          "title": "Hi Freq"
+        },
+        {
+          "index": 4,
+          "title": "HF-On"
+        },
+        {
+          "index": 5,
+          "title": "HFAdjust"
+        },
+        {
+          "index": 6,
+          "title": "Dual-On"
+        },
+        {
+          "index": 7,
+          "title": "Output"
+        },
+        {
+          "index": 13,
+          "title": "Solo On"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 20
+    },
+    {
+      "slot": 5,
+      "object_title": "Maximizer",
+      "param_count": 8,
+      "params": [
+        {
+          "index": 0,
+          "title": "Optimize"
+        },
+        {
+          "index": 1,
+          "title": "Clas-Modern"
+        },
+        {
+          "index": 2,
+          "title": "Recover"
+        },
+        {
+          "index": 3,
+          "title": "Release"
+        },
+        {
+          "index": 4,
+          "title": "SoftClip"
+        },
+        {
+          "index": 5,
+          "title": "Mix"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 40
+    },
+    {
+      "slot": 5,
+      "object_title": "MidiGate",
+      "param_count": 8,
+      "params": [
+        {
+          "index": 0,
+          "title": "Mode"
+        },
+        {
+          "index": 1,
+          "title": "Attack"
+        },
+        {
+          "index": 2,
+          "title": "Hold"
+        },
+        {
+          "index": 3,
+          "title": "Release"
+        },
+        {
+          "index": 4,
+          "title": "Note-Attack"
+        },
+        {
+          "index": 5,
+          "title": "Note-Release"
+        },
+        {
+          "index": 6,
+          "title": "Veloc-VCA"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 40
+    },
+    {
+      "slot": 5,
+      "object_title": "MultibandCompressor",
+      "param_count": 42,
+      "params": [
+        {
+          "index": 0,
+          "title": "1 Threshold"
+        },
+        {
+          "index": 1,
+          "title": "1 Ratio"
+        },
+        {
+          "index": 2,
+          "title": "2 Threshold"
+        },
+        {
+          "index": 3,
+          "title": "2 Ratio"
+        },
+        {
+          "index": 4,
+          "title": "3 Threshold"
+        },
+        {
+          "index": 5,
+          "title": "3 Ratio"
+        },
+        {
+          "index": 6,
+          "title": "4 Threshold"
+        },
+        {
+          "index": 7,
+          "title": "4 Ratio"
+        },
+        {
+          "index": 8,
+          "title": "1 Threshold"
+        },
+        {
+          "index": 9,
+          "title": "1 Ratio"
+        },
+        {
+          "index": 10,
+          "title": "1 Attack"
+        },
+        {
+          "index": 11,
+          "title": "1 Release"
+        },
+        {
+          "index": 12,
+          "title": "1 AuRel"
+        },
+        {
+          "index": 13,
+          "title": "1MakeUp"
+        },
+        {
+          "index": 14,
+          "title": "1 X Frq"
+        },
+        {
+          "index": 15,
+          "title": "1 Bypass"
+        },
+        {
+          "index": 16,
+          "title": "1 SC On"
+        },
+        {
+          "index": 17,
+          "title": "1 SC Frq"
+        },
+        {
+          "index": 18,
+          "title": "1 SC Q"
+        },
+        {
+          "index": 19,
+          "title": "1 SC Monitor"
+        },
+        {
+          "index": 21,
+          "title": "1 Bypass"
+        },
+        {
+          "index": 24,
+          "title": "2 Threshold"
+        },
+        {
+          "index": 25,
+          "title": "2 Ratio"
+        },
+        {
+          "index": 26,
+          "title": "2 Attack"
+        },
+        {
+          "index": 27,
+          "title": "2 Release"
+        },
+        {
+          "index": 28,
+          "title": "2 AuRel"
+        },
+        {
+          "index": 29,
+          "title": "2MakeUp"
+        },
+        {
+          "index": 30,
+          "title": "2 X Frq"
+        },
+        {
+          "index": 31,
+          "title": "2 Bypass"
+        },
+        {
+          "index": 32,
+          "title": "2 SC On"
+        },
+        {
+          "index": 33,
+          "title": "2 SC Frq"
+        },
+        {
+          "index": 34,
+          "title": "2 SC Q"
+        },
+        {
+          "index": 35,
+          "title": "2 SC Monitor"
+        },
+        {
+          "index": 37,
+          "title": "2 Bypass"
+        },
+        {
+          "index": 40,
+          "title": "3 Threshold"
+        },
+        {
+          "index": 41,
+          "title": "3 Ratio"
+        },
+        {
+          "index": 42,
+          "title": "3 Attack"
+        },
+        {
+          "index": 43,
+          "title": "3 Release"
+        },
+        {
+          "index": 44,
+          "title": "3 AuRel"
+        },
+        {
+          "index": 45,
+          "title": "3MakeUp"
+        },
+        {
+          "index": 46,
+          "title": "3 X Frq"
+        },
+        {
+          "index": 47,
+          "title": "3 Bypass"
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "object_title": "MultibandEnvelopeShaper",
+      "param_count": 43,
+      "params": [
+        {
+          "index": 0,
+          "title": "1 Attack"
+        },
+        {
+          "index": 1,
+          "title": "1 Release"
+        },
+        {
+          "index": 2,
+          "title": "2 Attack"
+        },
+        {
+          "index": 3,
+          "title": "2 Release"
+        },
+        {
+          "index": 4,
+          "title": "3 Attack"
+        },
+        {
+          "index": 5,
+          "title": "3 Release"
+        },
+        {
+          "index": 6,
+          "title": "4 Attack"
+        },
+        {
+          "index": 7,
+          "title": "4 Release"
+        },
+        {
+          "index": 8,
+          "title": "1 Attack"
+        },
+        {
+          "index": 9,
+          "title": "1 Length"
+        },
+        {
+          "index": 10,
+          "title": "1 Release"
+        },
+        {
+          "index": 11,
+          "title": "1 Sensit"
+        },
+        {
+          "index": 12,
+          "title": "1 Output"
+        },
+        {
+          "index": 13,
+          "title": "1 X Frq"
+        },
+        {
+          "index": 14,
+          "title": "Solo Bd"
+        },
+        {
+          "index": 15,
+          "title": "1 Bypass"
+        },
+        {
+          "index": 16,
+          "title": "2 Attack"
+        },
+        {
+          "index": 17,
+          "title": "2 Length"
+        },
+        {
+          "index": 18,
+          "title": "2 Release"
+        },
+        {
+          "index": 19,
+          "title": "2 Sensit"
+        },
+        {
+          "index": 20,
+          "title": "2 Output"
+        },
+        {
+          "index": 21,
+          "title": "2 X Frq"
+        },
+        {
+          "index": 22,
+          "title": "Solo Bd"
+        },
+        {
+          "index": 23,
+          "title": "2 Bypass"
+        },
+        {
+          "index": 24,
+          "title": "3 Attack"
+        },
+        {
+          "index": 25,
+          "title": "3 Length"
+        },
+        {
+          "index": 26,
+          "title": "3 Release"
+        },
+        {
+          "index": 27,
+          "title": "3 Sensit"
+        },
+        {
+          "index": 28,
+          "title": "3 Output"
+        },
+        {
+          "index": 29,
+          "title": "3 X Frq"
+        },
+        {
+          "index": 30,
+          "title": "Solo Bd"
+        },
+        {
+          "index": 31,
+          "title": "3 Bypass"
+        },
+        {
+          "index": 32,
+          "title": "4 Attack"
+        },
+        {
+          "index": 33,
+          "title": "4 Length"
+        },
+        {
+          "index": 34,
+          "title": "4 Release"
+        },
+        {
+          "index": 35,
+          "title": "4 Sensit"
+        },
+        {
+          "index": 36,
+          "title": "4 Output"
+        },
+        {
+          "index": 37,
+          "title": "3 X Frq"
+        },
+        {
+          "index": 38,
+          "title": "Solo Bd"
+        },
+        {
+          "index": 39,
+          "title": "4 Bypass"
+        },
+        {
+          "index": 43,
+          "title": "Live On"
+        },
+        {
+          "index": 45,
+          "title": "MainOutput"
+        },
+        {
+          "index": 47,
+          "title": "All Bypass"
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "object_title": "MultibandExpander",
+      "param_count": 48,
+      "params": [
+        {
+          "index": 0,
+          "title": "1 Threshold"
+        },
+        {
+          "index": 1,
+          "title": "1 Ratio"
+        },
+        {
+          "index": 2,
+          "title": "2 Threshold"
+        },
+        {
+          "index": 3,
+          "title": "2 Ratio"
+        },
+        {
+          "index": 4,
+          "title": "3 Threshold"
+        },
+        {
+          "index": 5,
+          "title": "3 Ratio"
+        },
+        {
+          "index": 6,
+          "title": "4 Threshold"
+        },
+        {
+          "index": 7,
+          "title": "4 Ratio"
+        },
+        {
+          "index": 8,
+          "title": "1 Threshold"
+        },
+        {
+          "index": 9,
+          "title": "1 Ratio"
+        },
+        {
+          "index": 10,
+          "title": "1MaxRed"
+        },
+        {
+          "index": 11,
+          "title": "1 Fall"
+        },
+        {
+          "index": 12,
+          "title": "1 Rise"
+        },
+        {
+          "index": 13,
+          "title": "1AuRise"
+        },
+        {
+          "index": 14,
+          "title": "1 Output"
+        },
+        {
+          "index": 15,
+          "title": "1 X Frq"
+        },
+        {
+          "index": 16,
+          "title": "1 SC On"
+        },
+        {
+          "index": 17,
+          "title": "1 SC Frq"
+        },
+        {
+          "index": 18,
+          "title": "1 SC Q"
+        },
+        {
+          "index": 19,
+          "title": "1 SCMon"
+        },
+        {
+          "index": 20,
+          "title": "1 Bypass"
+        },
+        {
+          "index": 21,
+          "title": "Solo Bd"
+        },
+        {
+          "index": 22,
+          "title": "MainOutput"
+        },
+        {
+          "index": 23,
+          "title": "All Bypass"
+        },
+        {
+          "index": 24,
+          "title": "2 Threshold"
+        },
+        {
+          "index": 25,
+          "title": "2 Ratio"
+        },
+        {
+          "index": 26,
+          "title": "2MaxRed"
+        },
+        {
+          "index": 27,
+          "title": "2 Fall"
+        },
+        {
+          "index": 28,
+          "title": "2 Rise"
+        },
+        {
+          "index": 29,
+          "title": "2AuRise"
+        },
+        {
+          "index": 30,
+          "title": "2 Output"
+        },
+        {
+          "index": 31,
+          "title": "2 X Frq"
+        },
+        {
+          "index": 32,
+          "title": "2 SC On"
+        },
+        {
+          "index": 33,
+          "title": "2 SC Frq"
+        },
+        {
+          "index": 34,
+          "title": "2 SC Q"
+        },
+        {
+          "index": 35,
+          "title": "2 SCMon"
+        },
+        {
+          "index": 36,
+          "title": "2 Bypass"
+        },
+        {
+          "index": 37,
+          "title": "Solo Bd"
+        },
+        {
+          "index": 38,
+          "title": "MainOutput"
+        },
+        {
+          "index": 39,
+          "title": "All Bypass"
+        },
+        {
+          "index": 40,
+          "title": "3 Threshold"
+        },
+        {
+          "index": 41,
+          "title": "3 Ratio"
+        },
+        {
+          "index": 42,
+          "title": "3MaxRed"
+        },
+        {
+          "index": 43,
+          "title": "3 Fall"
+        },
+        {
+          "index": 44,
+          "title": "3 Rise"
+        },
+        {
+          "index": 45,
+          "title": "3AuRise"
+        },
+        {
+          "index": 46,
+          "title": "3 Output"
+        },
+        {
+          "index": 47,
+          "title": "3 X Frq"
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "object_title": "Quadrafuzz v2",
+      "param_count": 45,
+      "params": [
+        {
+          "index": 0,
+          "title": "1 Drive"
+        },
+        {
+          "index": 1,
+          "title": "1GateThr"
+        },
+        {
+          "index": 2,
+          "title": "2 Drive"
+        },
+        {
+          "index": 3,
+          "title": "2GateThr"
+        },
+        {
+          "index": 4,
+          "title": "3 Drive"
+        },
+        {
+          "index": 5,
+          "title": "3GateThr"
+        },
+        {
+          "index": 6,
+          "title": "4 Drive"
+        },
+        {
+          "index": 7,
+          "title": "4GateThr"
+        },
+        {
+          "index": 8,
+          "title": "1 X Frq"
+        },
+        {
+          "index": 9,
+          "title": "1 Output"
+        },
+        {
+          "index": 10,
+          "title": "2 X Frq"
+        },
+        {
+          "index": 11,
+          "title": "2 Output"
+        },
+        {
+          "index": 12,
+          "title": "3 X Frq"
+        },
+        {
+          "index": 13,
+          "title": "3 Output"
+        },
+        {
+          "index": 14,
+          "title": "4 Output"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "SinglBd"
+        },
+        {
+          "index": 18,
+          "title": "Scene"
+        },
+        {
+          "index": 19,
+          "title": "CopyScene"
+        },
+        {
+          "index": 20,
+          "title": "Solo"
+        },
+        {
+          "index": 21,
+          "title": "Mix"
+        },
+        {
+          "index": 22,
+          "title": "Output"
+        },
+        {
+          "index": 23,
+          "title": "Bypass"
+        },
+        {
+          "index": 24,
+          "title": "1DisType"
+        },
+        {
+          "index": 25,
+          "title": "1 Drive"
+        },
+        {
+          "index": 26,
+          "title": "1GateThr"
+        },
+        {
+          "index": 27,
+          "title": "1DisFdb"
+        },
+        {
+          "index": 28,
+          "title": "1DEC Dpth"
+        },
+        {
+          "index": 29,
+          "title": "1DECMode"
+        },
+        {
+          "index": 30,
+          "title": "1 S+H"
+        },
+        {
+          "index": 31,
+          "title": "1 Bypass"
+        },
+        {
+          "index": 32,
+          "title": "1Dly On"
+        },
+        {
+          "index": 33,
+          "title": "1DlyTime"
+        },
+        {
+          "index": 34,
+          "title": "1SyncOn"
+        },
+        {
+          "index": 35,
+          "title": "1SyNote"
+        },
+        {
+          "index": 36,
+          "title": "1DlyFdb"
+        },
+        {
+          "index": 37,
+          "title": "1DFBDist"
+        },
+        {
+          "index": 38,
+          "title": "1DlyDuck"
+        },
+        {
+          "index": 39,
+          "title": "1DlyMix"
+        },
+        {
+          "index": 41,
+          "title": "1 Mute"
+        },
+        {
+          "index": 43,
+          "title": "1 Pan"
+        },
+        {
+          "index": 44,
+          "title": "1 Width"
+        },
+        {
+          "index": 45,
+          "title": "1 Mix"
+        },
+        {
+          "index": 46,
+          "title": "1 Output"
+        },
+        {
+          "index": 47,
+          "title": "1 Bypass"
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "object_title": "Raiser",
+      "param_count": 10,
+      "params": [
+        {
+          "index": 0,
+          "title": "Gain"
+        },
+        {
+          "index": 1,
+          "title": "Ceiling"
+        },
+        {
+          "index": 2,
+          "title": "Rel Mode"
+        },
+        {
+          "index": 3,
+          "title": "Release"
+        },
+        {
+          "index": 4,
+          "title": "FastRelease"
+        },
+        {
+          "index": 5,
+          "title": "Link"
+        },
+        {
+          "index": 6,
+          "title": "DIC"
+        },
+        {
+          "index": 7,
+          "title": "Compare"
+        },
+        {
+          "index": 13,
+          "title": "StaCurs"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 20
+    },
+    {
+      "slot": 5,
+      "object_title": "SoftClipper",
+      "param_count": 6,
+      "params": [
+        {
+          "index": 0,
+          "title": "Input"
+        },
+        {
+          "index": 2,
+          "title": "2nd"
+        },
+        {
+          "index": 3,
+          "title": "3rd"
+        },
+        {
+          "index": 5,
+          "title": "Mix"
+        },
+        {
+          "index": 6,
+          "title": "Output"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 30
+    },
+    {
+      "slot": 5,
+      "object_title": "Squasher",
+      "param_count": 48,
+      "params": [
+        {
+          "index": 0,
+          "title": "Input"
+        },
+        {
+          "index": 1,
+          "title": "1RatioUp"
+        },
+        {
+          "index": 2,
+          "title": "1RatioDown"
+        },
+        {
+          "index": 3,
+          "title": "2RatioUp"
+        },
+        {
+          "index": 4,
+          "title": "2RatioDown"
+        },
+        {
+          "index": 5,
+          "title": "3RatioUp"
+        },
+        {
+          "index": 6,
+          "title": "3RatioDown"
+        },
+        {
+          "index": 7,
+          "title": "Output"
+        },
+        {
+          "index": 8,
+          "title": "Input"
+        },
+        {
+          "index": 9,
+          "title": "Mix"
+        },
+        {
+          "index": 10,
+          "title": "Bd Amount"
+        },
+        {
+          "index": 11,
+          "title": "Link On"
+        },
+        {
+          "index": 12,
+          "title": "LinkMode"
+        },
+        {
+          "index": 13,
+          "title": "Solo"
+        },
+        {
+          "index": 14,
+          "title": "Output"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "1RatioUp"
+        },
+        {
+          "index": 17,
+          "title": "1RatioDown"
+        },
+        {
+          "index": 18,
+          "title": "1Thr Up"
+        },
+        {
+          "index": 19,
+          "title": "1ThrDown"
+        },
+        {
+          "index": 20,
+          "title": "1 Drive"
+        },
+        {
+          "index": 21,
+          "title": "1 X Frq"
+        },
+        {
+          "index": 22,
+          "title": "1 Mix"
+        },
+        {
+          "index": 23,
+          "title": "1 Output"
+        },
+        {
+          "index": 24,
+          "title": "1 Bd On"
+        },
+        {
+          "index": 25,
+          "title": "1 Gate"
+        },
+        {
+          "index": 26,
+          "title": "1 Attack"
+        },
+        {
+          "index": 27,
+          "title": "1 Release"
+        },
+        {
+          "index": 28,
+          "title": "1 SC On"
+        },
+        {
+          "index": 29,
+          "title": "1SCSource"
+        },
+        {
+          "index": 30,
+          "title": "1 SC Frq"
+        },
+        {
+          "index": 31,
+          "title": "1 SC Q"
+        },
+        {
+          "index": 32,
+          "title": "2RatioUp"
+        },
+        {
+          "index": 33,
+          "title": "2RatioDown"
+        },
+        {
+          "index": 34,
+          "title": "2Thr Up"
+        },
+        {
+          "index": 35,
+          "title": "2ThrDown"
+        },
+        {
+          "index": 36,
+          "title": "2 Drive"
+        },
+        {
+          "index": 37,
+          "title": "2 X Frq"
+        },
+        {
+          "index": 38,
+          "title": "2 Mix"
+        },
+        {
+          "index": 39,
+          "title": "2 Output"
+        },
+        {
+          "index": 40,
+          "title": "2 Bd On"
+        },
+        {
+          "index": 41,
+          "title": "2 Gate"
+        },
+        {
+          "index": 42,
+          "title": "2 Attack"
+        },
+        {
+          "index": 43,
+          "title": "2 Release"
+        },
+        {
+          "index": 44,
+          "title": "2 SC On"
+        },
+        {
+          "index": 45,
+          "title": "2SCSource"
+        },
+        {
+          "index": 46,
+          "title": "2 SC Frq"
+        },
+        {
+          "index": 47,
+          "title": "2 SC Q"
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "object_title": "StereoDelay",
+      "param_count": 28,
+      "params": [
+        {
+          "index": 0,
+          "title": "1 Delay"
+        },
+        {
+          "index": 1,
+          "title": "1SyncOn"
+        },
+        {
+          "index": 2,
+          "title": "1SyNote"
+        },
+        {
+          "index": 3,
+          "title": "1 Feedback"
+        },
+        {
+          "index": 5,
+          "title": "1 Pan"
+        },
+        {
+          "index": 6,
+          "title": "1 Mix"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "1LoF On"
+        },
+        {
+          "index": 9,
+          "title": "1LoF Frq"
+        },
+        {
+          "index": 11,
+          "title": "1HiF On"
+        },
+        {
+          "index": 12,
+          "title": "1HiF Frq"
+        },
+        {
+          "index": 13,
+          "title": "1 Pan"
+        },
+        {
+          "index": 14,
+          "title": "1 Mix"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "2 Delay"
+        },
+        {
+          "index": 17,
+          "title": "2SyncOn"
+        },
+        {
+          "index": 18,
+          "title": "2SyNote"
+        },
+        {
+          "index": 19,
+          "title": "2 Feedback"
+        },
+        {
+          "index": 21,
+          "title": "2 Pan"
+        },
+        {
+          "index": 22,
+          "title": "2 Mix"
+        },
+        {
+          "index": 23,
+          "title": "Bypass"
+        },
+        {
+          "index": 24,
+          "title": "2LoF On"
+        },
+        {
+          "index": 25,
+          "title": "2LoF Frq"
+        },
+        {
+          "index": 27,
+          "title": "2HiF On"
+        },
+        {
+          "index": 28,
+          "title": "2HiF Frq"
+        },
+        {
+          "index": 29,
+          "title": "2 Pan"
+        },
+        {
+          "index": 30,
+          "title": "2 Mix"
+        },
+        {
+          "index": 31,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 32,
+      "dropped_repeats": 14
+    },
+    {
+      "slot": 5,
+      "object_title": "Tube Compressor",
+      "param_count": 15,
+      "params": [
+        {
+          "index": 0,
+          "title": "Input"
+        },
+        {
+          "index": 1,
+          "title": "Drive"
+        },
+        {
+          "index": 2,
+          "title": "Attack"
+        },
+        {
+          "index": 3,
+          "title": "Release"
+        },
+        {
+          "index": 4,
+          "title": "AutoRelease"
+        },
+        {
+          "index": 5,
+          "title": "Character"
+        },
+        {
+          "index": 6,
+          "title": "Mix"
+        },
+        {
+          "index": 7,
+          "title": "Output"
+        },
+        {
+          "index": 8,
+          "title": "HiRatio"
+        },
+        {
+          "index": 10,
+          "title": "SC On"
+        },
+        {
+          "index": 11,
+          "title": "Fil Type"
+        },
+        {
+          "index": 12,
+          "title": "Fil Frq"
+        },
+        {
+          "index": 13,
+          "title": "Q-Factor"
+        },
+        {
+          "index": 14,
+          "title": "SC Monitor"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 30
+    },
+    {
+      "slot": 5,
+      "object_title": "UltraShaper",
+      "param_count": 32,
+      "params": [
+        {
+          "index": 0,
+          "title": "Thresh"
+        },
+        {
+          "index": 1,
+          "title": "Ratio"
+        },
+        {
+          "index": 2,
+          "title": "Gn Red"
+        },
+        {
+          "index": 3,
+          "title": "Knee"
+        },
+        {
+          "index": 4,
+          "title": "Attack"
+        },
+        {
+          "index": 5,
+          "title": "FastAttk"
+        },
+        {
+          "index": 6,
+          "title": "Release"
+        },
+        {
+          "index": 7,
+          "title": "Fast Rel"
+        },
+        {
+          "index": 8,
+          "title": "Intensity"
+        },
+        {
+          "index": 9,
+          "title": "Auto Gn"
+        },
+        {
+          "index": 10,
+          "title": "Mix"
+        },
+        {
+          "index": 11,
+          "title": "Output"
+        },
+        {
+          "index": 12,
+          "title": "Mode"
+        },
+        {
+          "index": 13,
+          "title": "ShwCurv"
+        },
+        {
+          "index": 14,
+          "title": "ShwMore"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "Tran On"
+        },
+        {
+          "index": 17,
+          "title": "Tr Gain"
+        },
+        {
+          "index": 18,
+          "title": "Tr Time"
+        },
+        {
+          "index": 19,
+          "title": "SC  On"
+        },
+        {
+          "index": 20,
+          "title": "SC Freq"
+        },
+        {
+          "index": 21,
+          "title": "SC Gain"
+        },
+        {
+          "index": 22,
+          "title": "SC Q"
+        },
+        {
+          "index": 23,
+          "title": "SC LCut"
+        },
+        {
+          "index": 24,
+          "title": "EQ On"
+        },
+        {
+          "index": 25,
+          "title": "EQ Freq"
+        },
+        {
+          "index": 26,
+          "title": "PosClip"
+        },
+        {
+          "index": 27,
+          "title": "EQSlope"
+        },
+        {
+          "index": 28,
+          "title": "Clip On"
+        },
+        {
+          "index": 29,
+          "title": "CL Gain"
+        },
+        {
+          "index": 30,
+          "title": "Clip"
+        },
+        {
+          "index": 31,
+          "title": "scMonit"
+        }
+      ],
+      "pagination_period": 32,
+      "dropped_repeats": 16
+    },
+    {
+      "slot": 5,
+      "object_title": "VST Amp Rack",
+      "param_count": 38,
+      "params": [
+        {
+          "index": 0,
+          "title": "Gain"
+        },
+        {
+          "index": 1,
+          "title": "Bass"
+        },
+        {
+          "index": 2,
+          "title": "Middle"
+        },
+        {
+          "index": 3,
+          "title": "Treble"
+        },
+        {
+          "index": 4,
+          "title": "Presence"
+        },
+        {
+          "index": 5,
+          "title": "Amp Model"
+        },
+        {
+          "index": 6,
+          "title": "Master"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "LoF On"
+        },
+        {
+          "index": 9,
+          "title": "LoF Frq"
+        },
+        {
+          "index": 10,
+          "title": "LoFGain"
+        },
+        {
+          "index": 11,
+          "title": "Peak On"
+        },
+        {
+          "index": 12,
+          "title": "PeakFrq"
+        },
+        {
+          "index": 13,
+          "title": "Pk Gain"
+        },
+        {
+          "index": 15,
+          "title": "MaEQ On"
+        },
+        {
+          "index": 16,
+          "title": "HiF On"
+        },
+        {
+          "index": 17,
+          "title": "HiF Frq"
+        },
+        {
+          "index": 18,
+          "title": "HiFGain"
+        },
+        {
+          "index": 21,
+          "title": "Amp Model"
+        },
+        {
+          "index": 23,
+          "title": "MaEQ On"
+        },
+        {
+          "index": 24,
+          "title": "SpkType"
+        },
+        {
+          "index": 25,
+          "title": "MicPosit"
+        },
+        {
+          "index": 26,
+          "title": "Mic-Mix"
+        },
+        {
+          "index": 27,
+          "title": "LinkSpk"
+        },
+        {
+          "index": 29,
+          "title": "Stereo"
+        },
+        {
+          "index": 30,
+          "title": "Output"
+        },
+        {
+          "index": 31,
+          "title": "Bypass"
+        },
+        {
+          "index": 33,
+          "title": "Tuner"
+        },
+        {
+          "index": 34,
+          "title": "Base"
+        },
+        {
+          "index": 35,
+          "title": "Strobe"
+        },
+        {
+          "index": 40,
+          "title": "Gain"
+        },
+        {
+          "index": 41,
+          "title": "Bass"
+        },
+        {
+          "index": 42,
+          "title": "Middle"
+        },
+        {
+          "index": 43,
+          "title": "Treble"
+        },
+        {
+          "index": 44,
+          "title": "Presence"
+        },
+        {
+          "index": 45,
+          "title": "Amp Model"
+        },
+        {
+          "index": 46,
+          "title": "Master"
+        },
+        {
+          "index": 47,
+          "title": "Bypass"
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "object_title": "VST Bass Amp",
+      "param_count": 37,
+      "params": [
+        {
+          "index": 0,
+          "title": "Gain"
+        },
+        {
+          "index": 1,
+          "title": "Bass"
+        },
+        {
+          "index": 2,
+          "title": "LoM Frq"
+        },
+        {
+          "index": 3,
+          "title": "LoMGain"
+        },
+        {
+          "index": 4,
+          "title": "HiM Frq"
+        },
+        {
+          "index": 5,
+          "title": "HiMGain"
+        },
+        {
+          "index": 6,
+          "title": "Treble"
+        },
+        {
+          "index": 7,
+          "title": "Master"
+        },
+        {
+          "index": 9,
+          "title": "LoSwitch"
+        },
+        {
+          "index": 12,
+          "title": "Amp Model"
+        },
+        {
+          "index": 14,
+          "title": "HiSwitch"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        },
+        {
+          "index": 16,
+          "title": "LoF On"
+        },
+        {
+          "index": 17,
+          "title": "LoF Frq"
+        },
+        {
+          "index": 18,
+          "title": "LoFGain"
+        },
+        {
+          "index": 19,
+          "title": "Peak On"
+        },
+        {
+          "index": 20,
+          "title": "PeakFrq"
+        },
+        {
+          "index": 21,
+          "title": "Pk Gain"
+        },
+        {
+          "index": 23,
+          "title": "MaEQ On"
+        },
+        {
+          "index": 24,
+          "title": "HiF On"
+        },
+        {
+          "index": 25,
+          "title": "HiF Frq"
+        },
+        {
+          "index": 26,
+          "title": "HiF Gain"
+        },
+        {
+          "index": 29,
+          "title": "Amp Model"
+        },
+        {
+          "index": 31,
+          "title": "MaEQ On"
+        },
+        {
+          "index": 32,
+          "title": "Spk Type"
+        },
+        {
+          "index": 33,
+          "title": "Spk Mix"
+        },
+        {
+          "index": 34,
+          "title": "Mic1Type"
+        },
+        {
+          "index": 35,
+          "title": "Mic2Type"
+        },
+        {
+          "index": 36,
+          "title": "MicPosit"
+        },
+        {
+          "index": 37,
+          "title": "Mic-Mix"
+        },
+        {
+          "index": 38,
+          "title": "LinkSpk"
+        },
+        {
+          "index": 39,
+          "title": "Bypass"
+        },
+        {
+          "index": 41,
+          "title": "Tuner"
+        },
+        {
+          "index": 42,
+          "title": "Base"
+        },
+        {
+          "index": 43,
+          "title": "Strobe"
+        },
+        {
+          "index": 46,
+          "title": "Output"
+        },
+        {
+          "index": 47,
+          "title": "Bypass"
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "object_title": "VSTDynamics",
+      "param_count": 38,
+      "params": [
+        {
+          "index": 0,
+          "title": "C Threshold"
+        },
+        {
+          "index": 1,
+          "title": "C Ratio"
+        },
+        {
+          "index": 2,
+          "title": "C Attack"
+        },
+        {
+          "index": 3,
+          "title": "C Release"
+        },
+        {
+          "index": 4,
+          "title": "C MakUp"
+        },
+        {
+          "index": 5,
+          "title": "L Output"
+        },
+        {
+          "index": 6,
+          "title": "L Release"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        },
+        {
+          "index": 8,
+          "title": "G Threshold"
+        },
+        {
+          "index": 9,
+          "title": "G Attack"
+        },
+        {
+          "index": 10,
+          "title": "G Hold"
+        },
+        {
+          "index": 11,
+          "title": "G Release"
+        },
+        {
+          "index": 12,
+          "title": "G AuRelease"
+        },
+        {
+          "index": 13,
+          "title": "G Range"
+        },
+        {
+          "index": 14,
+          "title": "Routing"
+        },
+        {
+          "index": 15,
+          "title": "Gate On"
+        },
+        {
+          "index": 16,
+          "title": "SCFilOn"
+        },
+        {
+          "index": 17,
+          "title": "SC FType"
+        },
+        {
+          "index": 18,
+          "title": "SC F Frq"
+        },
+        {
+          "index": 19,
+          "title": "SC F Q"
+        },
+        {
+          "index": 20,
+          "title": "SCMonitor"
+        },
+        {
+          "index": 22,
+          "title": "Routing"
+        },
+        {
+          "index": 23,
+          "title": "Gate On"
+        },
+        {
+          "index": 24,
+          "title": "C Threshold"
+        },
+        {
+          "index": 25,
+          "title": "C Ratio"
+        },
+        {
+          "index": 26,
+          "title": "C Attack"
+        },
+        {
+          "index": 27,
+          "title": "C Release"
+        },
+        {
+          "index": 28,
+          "title": "C AuRelease"
+        },
+        {
+          "index": 29,
+          "title": "C MakUp"
+        },
+        {
+          "index": 30,
+          "title": "C AMaUp"
+        },
+        {
+          "index": 31,
+          "title": "Comp On"
+        },
+        {
+          "index": 32,
+          "title": "Lim On"
+        },
+        {
+          "index": 33,
+          "title": "L Output"
+        },
+        {
+          "index": 34,
+          "title": "L SClip"
+        },
+        {
+          "index": 35,
+          "title": "L Release"
+        },
+        {
+          "index": 36,
+          "title": "L AuRelease"
+        },
+        {
+          "index": 38,
+          "title": "Live On"
+        },
+        {
+          "index": 39,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 40,
+      "dropped_repeats": 8
+    },
+    {
+      "slot": 5,
+      "object_title": "VintageCompressor",
+      "param_count": 9,
+      "params": [
+        {
+          "index": 0,
+          "title": "Input"
+        },
+        {
+          "index": 1,
+          "title": "Ratio"
+        },
+        {
+          "index": 2,
+          "title": "Attack"
+        },
+        {
+          "index": 3,
+          "title": "Release"
+        },
+        {
+          "index": 4,
+          "title": "AutoRelease"
+        },
+        {
+          "index": 5,
+          "title": "Att Mode"
+        },
+        {
+          "index": 6,
+          "title": "Mix"
+        },
+        {
+          "index": 7,
+          "title": "Output"
+        },
+        {
+          "index": 15,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 16,
+      "dropped_repeats": 18
+    },
+    {
+      "slot": 5,
+      "object_title": "VoxComp",
+      "param_count": 5,
+      "params": [
+        {
+          "index": 0,
+          "title": "Thresho"
+        },
+        {
+          "index": 2,
+          "title": "Dry-Wet"
+        },
+        {
+          "index": 4,
+          "title": "Output"
+        },
+        {
+          "index": 6,
+          "title": "Live"
+        },
+        {
+          "index": 7,
+          "title": "Bypass"
+        }
+      ],
+      "pagination_period": 8,
+      "dropped_repeats": 25
+    }
+  ]
+}

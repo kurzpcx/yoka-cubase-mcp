@@ -30,7 +30,7 @@ Drei Bridge-Layer:
 - **Closed-Loop:** Jede Steuer-Aktion wartet auf das DAW-Echo und meldet `verified: true/false` — kein Hoffen, dass ein Befehl ankam.
 - **State-Mirror:** `get_daw_state` liefert jederzeit Mode, Transport, aktive Spur, 8 sichtbare Strips mit Volume/Mute/Solo/VU — ohne Screenshot.
 - **Command-Steuerung:** Cubase-**Standard-Commands** (mit eigenem Hotkey) direkt nutzbar; für die **volle Belegung** aller ~1559 ungebundenen Commands liegen die Generatoren *und* die fertige MIDI-Remote-Map bei.
-- **Plugin-Parameter-Steuerung:** Über `makeValueBinding` (Cubase MIDI Remote API) ist **jeder vom Host veröffentlichte VST-Parameter** adressierbar — unabhängig von plugin-internem MIDI-Learn (`nicker_set_plugin_param`, Plugin by name). Live verifiziert (KI bewegte StudioEQ „1 Gain"). Mitgeliefert ist eine **Demo-CC-Map** (1 Stock-Plugin je Kategorie); deine volle Plugin-Abdeckung **scannst du selbst** mit `nicker_sync_plugins_from_cubase` (siehe [User-Daten](#user-spezifische-daten)).
+- **Plugin-Parameter-Steuerung:** Über `makeValueBinding` (Cubase MIDI Remote API) ist **jeder vom Host veröffentlichte VST-Parameter** adressierbar — unabhängig von plugin-internem MIDI-Learn (`nicker_set_plugin_param`, Plugin by name). Live verifiziert (KI bewegte StudioEQ „1 Gain"). **Mitgeliefert sind alle Cubase-Steinberg-Stock-Plugins (91) als fertige CC-Map** — out-of-the-box per Name steuerbar, da die Stock-Parameter bei jedem Cubase 15 identisch sind. Nur deine **Drittanbieter-Plugins** scannst du selbst mit `nicker_sync_plugins_from_cubase` (siehe [User-Daten](#user-spezifische-daten)).
 - **Nicker-Wissens-Layer:** Audio-Analyse (LUFS/Spektrum/True-Peak), Mastering-Chains pro Genre×Plattform, EQ-/Masking-Advice pro Track-Rolle, Mix-Presets, Plugin-Registry.
 - **Plattform-portierbar:** Windows produktiv getestet; macOS-Implementierung als Stub vorhanden.
 
@@ -88,7 +88,7 @@ Drei Bridge-Layer:
 
 Der **Code** deckt den vollen Funktionsumfang ab — zwei Datensätze sind aber an *dein* Setup gebunden und werden nicht mitgeliefert:
 
-- **Plugin-Inventar / volle CC-Map:** Jede Cubase-Installation hat ein anderes Plugin-Arsenal. Scanne deins mit `nicker_sync_plugins_from_cubase` (bzw. `python -m runtime.persona.cubase_plugin_sync --apply`). Ohne Scan läuft der Server normal, die Plugin-Registry ist nur leer. Mitgeliefert ist eine Demo-CC-Map (1 Stock-Plugin/Kategorie) zum Ausprobieren.
+- **Plugin-Inventar / volle CC-Map:** Jede Cubase-Installation hat ein anderes Plugin-Arsenal. Scanne deins mit `nicker_sync_plugins_from_cubase` (bzw. `python -m runtime.persona.cubase_plugin_sync --apply`). Ohne Scan läuft der Server normal, die Plugin-Registry ist nur leer. **Alle Steinberg-Stock-Plugins (91) sind als CC-Map dabei** (universell, identische Param-Indizes bei jedem Cubase 15) — nur deine Drittanbieter-Plugins brauchen den eigenen Scan.
 - **YMP-Wissensbasis (Volltexte):** Die `nicker_search/get_studium_*`-Tools lesen aus einem separaten Wissens-Repo. Setze `YMP_PATH` oder lege es als Sibling-Verzeichnis ab; fehlt es, sind nur diese drei Tools inaktiv. Die strukturierten Wissens-JSONs (Mastering-Chains, Frequenz-Advice, Mix-Presets) sind dagegen dabei.
 
 ## Repo-Struktur
@@ -99,7 +99,7 @@ yoka-cubase-mcp/
 ├── runtime/
 │   ├── mackie/        ← MCU-Kern: parser, state, listener, sender, closedloop, units
 │   ├── ahk/           ← Hotkey-Bridge (Standard-Commands + volle Patch-Map)
-│   ├── midi_bridge/   ← Note-Send + Command-Resolver + Command-MIDI-Map + Demo-Plugin-Map
+│   ├── midi_bridge/   ← Note-Send + Command-Resolver + Command-MIDI-Map + Stock-Plugin-Map (91 Steinberg)
 │   ├── midi_remote/   ← Cubase-MIDI-Remote-Scripts (generisch: Command- + Value-Steuer-JS)
 │   ├── persona/       ← Nicker: Mastering, Frequenz-Advice, Audio-Analyse, Plugin-Registry, Wissens-Loader
 │   ├── traktor/       ← Traktor-Deck-Observer
