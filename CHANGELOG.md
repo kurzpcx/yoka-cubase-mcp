@@ -18,7 +18,7 @@ Alle nennenswerten Änderungen an **yoka-cubase-mcp**. Format orientiert an
 - `requirements.txt`: `pywin32` (Windows-AHK, Environment-Marker) + Audio-Deps (numpy/scipy/soundfile/pyloudnorm) ergänzt.
 
 ### Hinweis zu user-spezifischen Daten
-- **Plugin-Inventar** + volle **Plugin-CC-Map** entstehen aus deinem eigenen Cubase-Scan (nicht mitgeliefert). Mitgeliefert ist eine Demo-CC-Map (1 Stock-Plugin je Kategorie).
+- **Alle Cubase-Steinberg-Stock-Plugins (91) sind als CC-Map mitgeliefert** — out-of-the-box per Name steuerbar (universell, identische Param-Indizes bei jedem Cubase 15). Nur dein **Plugin-Inventar** + die **volle CC-Map inkl. Drittanbieter** entstehen aus deinem eigenen Scan.
 - **YMP-Wissensbasis** (Volltexte) optional via `YMP_PATH` / Sibling-Repo.
 
 ## [0.1.0] — 2026-06-11

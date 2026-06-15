@@ -1,6 +1,6 @@
 # Cubase-Macros für KI-Demo-Choreografien
 
-> Die Macros (Setup, Transport, A/B-Snapshots), die Plugin-Parameter-Steuerung und die Nicker-Wissens-Schritte (`nicker_*`) sind **alle im vollen Funktionsumfang dabei** (AGPL-3.0). Deine volle Plugin-Abdeckung scannst du selbst (s. README → *User-spezifische Daten*).
+> Die Macros (Setup, Transport, A/B-Snapshots), die Plugin-Parameter-Steuerung und die Nicker-Wissens-Schritte (`nicker_*`) sind **alle im vollen Funktionsumfang dabei** (AGPL-3.0). Alle Steinberg-Stock-Plugins sind dabei; nur deine Drittanbieter scannst du selbst (s. README → *User-spezifische Daten*).
 
 **Position im Stack:**
 - **Atomic-Layer:** Cubase-Defaults + KI-Hotkey-Cluster (35 Actions, siehe `drehbuch_hotkey_layout.md`)

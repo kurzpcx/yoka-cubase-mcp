@@ -157,7 +157,7 @@
 - Stock-Plugin aus der **Stock-Map** auf eine Spur (z. B. **StudioEQ** oder **Frequency**), GUI offen
 - KI setzt einen Parameter (z. B. StudioEQ Band-1-Gain) per `nicker_set_plugin_param` → **Wert fährt live im GUI**
 - A/B: zweiter Wert, zurück — sichtbar + hörbar
-- Für deine **volle Plugin-Abdeckung** scannst du dein eigenes Sortiment mit dem mitgelieferten Scanner.
+- Alle Steinberg-Stock-Plugins sind bereits dabei; nur deine **Drittanbieter-Plugins** scannst du mit dem mitgelieferten Scanner.
 
 **Mechanismus:** Der Scanner (`outputs/parse_param_scan.py` + `ki_studio_param_scan.js`) erzeugt aus deinem eigenen Plugin-Scan eine **Param-Map**; der Generator (`outputs/generate_value_bindings.py`) baut daraus das generische Steuer-JS. **Mitgeliefert:** `cubase_plugin_param_map_stock.json` + `cubase_value_cc_map_stock.json` (alle 91 Steinberg-Stock-Plugins). Die **vollen** Maps (`cubase_plugin_param_map.json` + `cubase_value_cc_map.json`, inkl. deiner Drittanbieter) sind dein persönlicher Scan und nicht im Repo. Adressierung über Port `AI_VAL`, Channel = Insert-Slot. Details: [`specs/spec_2026_06_09_plugin_value_bindings.md`](../specs/spec_2026_06_09_plugin_value_bindings.md).
 

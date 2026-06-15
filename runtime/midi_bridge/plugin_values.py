@@ -20,18 +20,16 @@ from typing import Optional
 
 REPO = Path(__file__).resolve().parent.parent.parent
 CC_MAP_PATH = REPO / "runtime" / "midi_bridge" / "cubase_value_cc_map.json"
-# Lade-Reihenfolge der Fallbacks, wenn die volle CC-Map (eigener Scan inkl.
-# Drittanbieter) fehlt:
-#   1. stock — alle Cubase-Steinberg-Stock-Plugins (mitgeliefert, universell)
-#   2. demo  — 1 Stock-Plugin je Kategorie (minimaler Notnagel)
+# Fallback, wenn die volle CC-Map (eigener Scan inkl. Drittanbieter) fehlt:
+# die mitgelieferte Stock-Map mit ALLEN Cubase-Steinberg-Stock-Plugins (universell —
+# identische Param-Indizes bei jeder Cubase-15-Installation).
 STOCK_CC_MAP_PATH = REPO / "runtime" / "midi_bridge" / "cubase_value_cc_map_stock.json"
-DEMO_CC_MAP_PATH = REPO / "runtime" / "midi_bridge" / "cubase_value_cc_map_demo.json"
 
 _cache: Optional[dict] = None
 
 
 _MISSING_MSG = (
-    "Keine CC-Map gefunden (weder cubase_value_cc_map.json, ...stock.json noch ...demo.json). "
+    "Keine CC-Map gefunden (weder cubase_value_cc_map.json noch ...stock.json). "
     "generate_value_bindings.py laufen lassen bzw. die volle CC-Map per eigenem "
     "Plugin-Scan erzeugen (parse_param_scan.py)."
 )
@@ -39,11 +37,11 @@ _MISSING_MSG = (
 
 def _load() -> dict:
     """Laedt die CC-Map nach Praeferenz: volle (eigener Scan, inkl. Drittanbieter) ->
-    Stock (alle Steinberg-Stock-Plugins, mitgeliefert) -> Demo (1/Kategorie). Fehlt
-    alles, gibt resolve() eine klare Meldung statt zu crashen — Server bleibt lauffaehig."""
+    Stock (alle Steinberg-Stock-Plugins, mitgeliefert). Fehlt beides, gibt resolve()
+    eine klare Meldung statt zu crashen — der Server bleibt lauffaehig."""
     global _cache
     if _cache is None:
-        for path in (CC_MAP_PATH, STOCK_CC_MAP_PATH, DEMO_CC_MAP_PATH):
+        for path in (CC_MAP_PATH, STOCK_CC_MAP_PATH):
             try:
                 _cache = json.loads(path.read_text(encoding="utf-8"))
                 break

@@ -9,7 +9,7 @@ Prueft in einem Durchlauf:
   * Python-Dependencies (Core + Windows-AHK + Nicker-Audio)
   * MIDI-Ports (loopMIDI / IAC) — MACKIE_*_CUBASE + AI_INPUT
   * Cubase-Port-Setup (Mackie-Control-Device, via cubase_port_setup.validate)
-  * optionale Daten (Plugin-Inventar, volle/Demo-CC-Map, YMP-Wissensbasis)
+  * optionale Daten (Plugin-Inventar, volle/Stock-CC-Map, YMP-Wissensbasis)
   * MCP-Server-Import (laedt runtime.mcp.server ohne Fehler)
 
 Exit-Code 0 = alle kritischen Checks bestanden (Warnungen sind ok — z. B. fehlende
@@ -110,10 +110,9 @@ def check_optional_data() -> None:
                "python -m runtime.persona.cubase_plugin_sync --apply  (eigenes Cubase scannen)")
 
     if (mb / "cubase_value_cc_map.json").exists():
-        _check(OK, "Volle Plugin-CC-Map vorhanden")
-    elif (mb / "cubase_value_cc_map_demo.json").exists():
-        _check(WARN, "Nur Demo-CC-Map (1 Stock-Plugin je Kategorie)",
-               "eigener Plugin-Scan fuer volle Abdeckung (parse_param_scan.py)")
+        _check(OK, "Volle Plugin-CC-Map vorhanden (inkl. Drittanbieter)")
+    elif (mb / "cubase_value_cc_map_stock.json").exists():
+        _check(OK, "Stock-CC-Map vorhanden (alle Steinberg-Stock-Plugins; Drittanbieter via eigenem Scan)")
     else:
         _check(WARN, "Keine CC-Map gefunden", "generate_value_bindings.py laufen lassen")
 
