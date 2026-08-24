@@ -53,6 +53,12 @@ DAW_WINDOWS: dict[str, DawWindowSpec] = {
         class_prefix="Ableton Live Window Class",
         title_contains="ableton live",
     ),
+    # Nuendo teilt die Cubase-Engine: gleiche Fensterklasse, Titel enthält "Nuendo"
+    "nuendo": DawWindowSpec(
+        name="nuendo",
+        class_prefix="SteinbergWindowClass",
+        title_contains="nuendo",
+    ),
 }
 
 
@@ -298,6 +304,24 @@ DAW_ACTIONS: dict[str, dict[str, str]] = {
 
         # Virtual Keyboard (Cubase-Default, für MIDI-Eingabe via Computer-Keyboard)
         "open_virtual_keyboard": "alt+k",
+    },
+    # Nuendo 13: teilt Cubase-Defaults für die Grund-Commands.
+    # Studio-spezifische User-Hotkeys (dieser Arbeitsplatz):
+    #   F10 = Export-Panel (Audio Export) / P = Locators aus Selektion
+    "nuendo": {
+        "save_project": "ctrl+s",
+        "save_project_as": "ctrl+shift+s",
+        "undo": "ctrl+z",
+        "redo": "ctrl+shift+z",
+        "export_audio_mixdown": "f10",          # User-Keycommand: Export-Panel
+        "set_locators_from_selection": "p",     # User-Keycommand: Bereich setzen
+        "transport_play_pause": "space",
+        "solo_selected": "s",
+        "mute_selected": "m",
+        "record_enable_selected": "*",
+        "metronome_toggle": "c",
+        "punch_in_toggle": "i",
+        "punch_out_toggle": "o",
     },
     "ableton": {
         "save_project": "ctrl+s",

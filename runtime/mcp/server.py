@@ -127,6 +127,19 @@ DAW_REGISTRY: dict[str, dict[str, str]] = {
         "listener_port": os.environ.get("MACKIE_LISTENER_PORT_ABLETON", "MACKIE_FROM_ABLETON"),
         "sender_port": os.environ.get("MACKIE_SENDER_PORT_ABLETON", "MACKIE_TO_ABLETON"),
     },
+    # Nuendo 13: gleiche Mackie-Control-Integration wie Cubase (Studio Setup).
+    # Default: teilt die loopMIDI-Ports mit cubase (nur eine DAW läuft gleichzeitig);
+    # per ENV MACKIE_LISTENER_PORT_NUENDO / MACKIE_SENDER_PORT_NUENDO übersteuerbar.
+    "nuendo": {
+        "listener_port": os.environ.get(
+            "MACKIE_LISTENER_PORT_NUENDO",
+            os.environ.get("MACKIE_LISTENER_PORT", "MACKIE_FROM_CUBASE"),
+        ),
+        "sender_port": os.environ.get(
+            "MACKIE_SENDER_PORT_NUENDO",
+            os.environ.get("MACKIE_SENDER_PORT", "MACKIE_TO_CUBASE"),
+        ),
+    },
 }
 
 # Traktor-Entry nur registrieren wenn das optionale traktor-Modul verfuegbar ist
